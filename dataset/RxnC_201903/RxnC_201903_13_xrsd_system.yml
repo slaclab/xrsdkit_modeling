@@ -1,0 +1,62 @@
+features: {I_fluctuation: 9.66141798374733, Ilowq_over_Imean: 2.850681043280405, Imax_over_Imean: 4.578491606164214,
+  Imax_sharpness: 1.1008578085901968, best_hump_qwidth: 0.0014875653807694248, best_hump_qwidth_log: 0.004328172095471807,
+  best_trough_qwidth: 0.00673277338182703, best_trough_qwidth_log: 0.005155914297259955,
+  logI_fluctuation: 14.459360391362283, logI_max_over_std: 0.1223846244196361, pearson_expq: -0.7326564008022287,
+  pearson_invexpq: 0.8000460307259717, pearson_q: -0.7673351113420603, pearson_q2: -0.6425681538037443,
+  q_Icentroid: 0.21534501899293793, q_best_hump: 0.04843801055585234, q_best_hump_log: 0.048182008674670485,
+  q_best_trough: 0.1780062120977507, q_best_trough_log: 0.17673860811113357, q_logIcentroid: 0.3686049767914419,
+  r_fftIcentroid: 0.11104513990007937}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.04870405015546441
+  fit_snr: 4.249013445036493
+  good_fit: 0
+  initial_objective: 0.04870405015546441
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1.7319479184152442e-14
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.6374773697199982
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 19.402426931507822
+  settings: {distribution: single}
+  structure: diffuse
+pop0:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.2175872166811308
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.625462986837794
+  settings: {distribution: single}
+  structure: diffuse
+sample_metadata: {data_file: RxnC_201903_13_dz_bgsub.dat, experiment_id: RxnC_201903,
+  notes: '', sample_id: RxnC_201903_1552315950, source_wavelength: 0.799898, time: 1552315950.962065}

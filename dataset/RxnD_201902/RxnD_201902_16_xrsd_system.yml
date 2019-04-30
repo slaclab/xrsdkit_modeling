@@ -1,0 +1,27 @@
+features: {I_fluctuation: 17.821969432264822, Ilowq_over_Imean: 1.0272286241254251,
+  Imax_over_Imean: 1.707532437079755, Imax_sharpness: 1.6859344810501815, best_hump_qwidth: 0.0002550775647186548,
+  best_hump_qwidth_log: 0.00020905733939311728, best_trough_qwidth: 0.0027210209797547476,
+  best_trough_qwidth_log: 0.0013990097755518965, logI_fluctuation: 22.132695528050046,
+  logI_max_over_std: -7.271183079874299, pearson_expq: -0.04557036190330027, pearson_invexpq: 0.05358352572035926,
+  pearson_q: -0.04964005190854077, pearson_q2: -0.03588611875471005, q_Icentroid: 0.3138961993662697,
+  q_best_hump: 0.03981325731765817, q_best_hump_log: 0.03983403308411726, q_best_trough: 0.0540106669353016,
+  q_best_trough_log: 0.04863982167361858, q_logIcentroid: 0.3155202918348377, r_fftIcentroid: 0.15862318036440648}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.01729641603520445
+  fit_snr: 7.421416623055513
+  good_fit: 1
+  initial_objective: 89.57003796729802
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.2243887901877324
+sample_metadata: {data_file: RxnD_201902_16_dz_bgsub.dat, experiment_id: RxnD_201902,
+  notes: '', sample_id: RxnD_201902_1549722477, source_wavelength: 0.799898, time: 1549722477.361398}

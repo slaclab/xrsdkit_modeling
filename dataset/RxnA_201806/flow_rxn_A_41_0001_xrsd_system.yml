@@ -1,0 +1,23 @@
+features: {I_fluctuation: 1.3451266775700073, Ilowq_over_Imean: 7.305784117200654,
+  Imax_over_Imean: 16.61508887408506, Imax_sharpness: 1.0694372467999924, best_hump_qwidth: 0.0013526641438619657,
+  best_hump_qwidth_log: 0.005001675298475919, best_trough_qwidth: 0.021098405333037105,
+  best_trough_qwidth_log: 0.0007950692409741245, logI_fluctuation: 7.14166299289885,
+  logI_max_over_std: 2.881319219663378, pearson_expq: -0.4472737345162542, pearson_invexpq: 0.5545175936512522,
+  pearson_q: -0.5014060063582276, pearson_q2: -0.3803019801365823, q_Icentroid: 0.1406078125189631,
+  q_best_hump: 0.05206017923013523, q_best_hump_log: 0.052379658884441516, q_best_trough: 0.7492479842370761,
+  q_best_trough_log: 0.7517166525279596, q_logIcentroid: 0.8031027604540605, r_fftIcentroid: 0.04950669515463208}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: flow_rxn_A_41_0001_dz_bgsub.dat, experiment_id: RxnA_201806,
+  notes: '', sample_id: RxnA_201806_1529886851, source_wavelength: 0.799898, time: 1529886851.211722}
