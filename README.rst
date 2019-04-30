@@ -35,11 +35,11 @@ Step 1: Download this Repository
 ================================
 
 Download this repository through the GitHub interface,
-or clone it with `git clone`. 
+or clone it with git clone. 
 
-    git clone INSERT-URL-HERE
+    git clone https://github.com/slaclab/flowreactor_modeling.git 
 
-Activate your virtual environment (presume that you created one and named it `flowreactor`),
+Activate your virtual environment (presume that you created one and named it flowreactor),
 and move into the directory you just downloaded.
 
     workon flowreactor
@@ -54,9 +54,9 @@ Step 2a (optional): Update the dataset
 
 If you are not planning to use the default dataset 
 that is included in this repository,
-you should now augment or replace the `dataset` directory 
+you should now augment or replace the dataset directory 
 with your xrsdkit-processed results (yml files grouped by experiment).
-The `dataset` directory contains one or more subdirectories,
+The dataset directory contains one or more subdirectories,
 where each subdirectory consolidates xrsdkit results for one experiment. 
 One experiment consists of one or more samples,
 and one sample is represented by exactly one yml file.
@@ -82,13 +82,13 @@ and any applicable configurations will be carried over into the new models.
 Step 3: Train Models
 ====================
 
-Use `python train_models.py` to call on xrsdkit 
-to train its models from data in the `dataset` directory.
+Use python train_models.py to call on xrsdkit 
+to train its models from data in the dataset directory.
 This will save the trained model parameters and training metrics
-in the `modeling_data` directory.
+in the modeling_data directory.
 This overwrites the default models 
-that are originally included in `modeling_data`.
-This also overwrites the model configuration file `model_config.yml`.
+that are originally included in modeling_data.
+This also overwrites the model configuration file model_config.yml.
 
     python train_models.py
 
@@ -97,7 +97,7 @@ Step 4: Load Models
 ===================
 
 The trained model parameters are saved in a tree of files,
-rooted at the `modeling_data` directory.
+rooted at the modeling_data directory.
 Each model is defined by a text file that describes its training results,
 and a pickle file that can be used to rebuild the model itself. 
 You can load these models into an xrsdkit module at runtime.
@@ -105,9 +105,9 @@ You can load these models into an xrsdkit module at runtime.
     import xrsdkit 
     xrsdkit.load_models('path/to/modeling/data/dir')
 
-After executing these lines, the models defined in `modeling_data`
+After executing these lines, the models defined in modeling_data
 will be used for the duration of the runtime,
-whenever `xrsdkit.predict` is called.
+whenever xrsdkit.predict is called.
 
     import numpy as np
     q_I = np.loadtxt('path/to/1d/scattering/pattern.dat')
