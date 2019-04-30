@@ -79,8 +79,8 @@ If this file is left in place, it will be found during the next step,
 and any applicable configurations will be carried over into the new models.
 
 
-Step 3: Train Models
-====================
+Step 3a: Train Models
+=====================
 
 Use python train_models.py to call on xrsdkit 
 to train its models from data in the dataset directory.
@@ -91,6 +91,22 @@ that are originally included in modeling_data.
 This also overwrites the model configuration file model_config.yml.
 
     python train_models.py
+
+
+Step 3b (optional): Update the Configuration
+============================================
+
+The training process will generate a model configuration file,
+which will be saved in this directory.
+Edit the file with any text editor to select 
+whatever model types and training metrics
+are appropriate for the project at hand.
+If you prefer to edit the configuration programmatically,
+the configuration file can be loaded into a Python dictionary,
+edited, and re-saved.
+
+After editing the configuration, re-run the training 
+to re-train the models in the new configuration.
 
 
 Step 4: Load Models
