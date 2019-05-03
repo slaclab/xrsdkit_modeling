@@ -1,0 +1,11 @@
+cross_valid_results: {}
+default_val: 26.361338746190192
+features: []
+metric: neg_mean_absolute_error
+model:
+  hyper_parameters: {}
+  trained_par: {}
+model_target: pop1_r
+model_type: ridge_regressor
+scaler: {}
+trained: false

@@ -1,0 +1,6 @@
+Cross validation results for pop2_sigma Regressor
+
+Mean absolute error: 0.5519433750306895
+
+Coefficient of determination (R^2): 0.42054482386194014
+

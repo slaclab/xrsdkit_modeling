@@ -1,0 +1,6 @@
+Cross validation results for pop0_rg Regressor
+
+Mean absolute error: 0.22633452420360683
+
+Coefficient of determination (R^2): 0.9250119678661467
+

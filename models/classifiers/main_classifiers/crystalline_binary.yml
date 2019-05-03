@@ -1,0 +1,16 @@
+cross_valid_results: {}
+default_val: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args: [b1, 0, 1]
+  state: !!python/tuple [3, '|', null, null, null, -1, -1, 0]
+- !!binary |
+  AA==
+features: []
+metric: precision
+model:
+  hyper_parameters: {}
+  trained_par: {}
+model_target: crystalline_binary
+model_type: logistic_regressor
+scaler: {}
+trained: false

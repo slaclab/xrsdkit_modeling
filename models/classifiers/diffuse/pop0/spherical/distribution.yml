@@ -1,0 +1,11 @@
+cross_valid_results: {}
+default_val: r_normal
+features: []
+metric: accuracy
+model:
+  hyper_parameters: {}
+  trained_par: {}
+model_target: pop0_distribution
+model_type: logistic_regressor
+scaler: {}
+trained: false

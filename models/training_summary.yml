@@ -1,0 +1,297 @@
+!!python/object/apply:collections.OrderedDict
+- - [DESCRIPTION, 'Each metric is reported with two values: The first value is the
+      value of the metric, and the second value is the difference in the metric relative
+      to a reference training summary, if provided']
+  - - CLASSIFIERS
+    - diffuse:
+        noise_model:
+          model_type: logistic_regressor
+          scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop0:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: 0.9875, f1: 0.9852914138628424, precision: 0.9910714285714286,
+              recall: 0.98}
+          guinier_porod:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+      diffuse__diffuse:
+        noise_model:
+          model_type: logistic_regressor
+          scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop0:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          guinier_porod:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop1:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+      diffuse__diffuse__disordered:
+        noise_model:
+          model_type: logistic_regressor
+          scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop0:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          guinier_porod:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop1:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop2:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          interaction:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+      diffuse__disordered:
+        noise_model:
+          model_type: logistic_regressor
+          scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop0:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          guinier_porod:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+        pop1:
+          form:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          guinier_porod:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+          interaction:
+            model_type: logistic_regressor
+            scores: {accuracy: null, f1: null, precision: null, recall: null}
+          spherical:
+            distribution:
+              model_type: logistic_regressor
+              scores: {accuracy: null, f1: null, precision: null, recall: null}
+      main_classifiers:
+        crystalline_binary:
+          model_type: logistic_regressor
+          scores: {accuracy: null, f1: null, precision: null, recall: null}
+        diffuse:
+          model_type: logistic_regressor
+          scores: {accuracy: 0.5885167464114832, f1: 0.5873737373737373, precision: 0.6298851732473811,
+            recall: 0.6228095238095238}
+        diffuse__disordered:
+          model_type: logistic_regressor
+          scores: {accuracy: 0.9285714285714286, f1: 0.8782608695652174, precision: 0.8782608695652174,
+            recall: 0.8782608695652174}
+        diffuse_binary:
+          model_type: logistic_regressor
+          scores: {accuracy: 0.9423728813559322, f1: 0.9634408602150538, precision: 0.9955555555555555,
+            recall: 0.9333333333333333}
+        disordered_binary:
+          model_type: logistic_regressor
+          scores: {accuracy: 0.7762711864406779, f1: 0.45000000000000007, precision: 0.3,
+            recall: 0.9}
+  - - REGRESSORS
+    - diffuse:
+        noise:
+          flat:
+            I0_fraction:
+              model_type: ridge_regressor
+              scores: {MAE: 0.262195500428092, coef_of_determination: 0.18855735842342936}
+        pop0:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.26219550042809187, coef_of_determination: 0.1885573584234297}
+          guinier_porod:
+            D:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+            distribution:
+              single: {}
+            rg:
+              model_type: ridge_regressor
+              scores: {MAE: 0.22633452420360683, coef_of_determination: 0.9250119678661467}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: 0.4757976934572123, coef_of_determination: 0.3593428227281509}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: 0.20950817745868464, coef_of_determination: 0.9192291109195591}
+      diffuse__diffuse:
+        noise:
+          flat:
+            I0_fraction:
+              model_type: ridge_regressor
+              scores: {MAE: 0.2815490211935325, coef_of_determination: 0.010330010476281126}
+        pop0:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.253892853373877, coef_of_determination: 0.6000309125463329}
+          guinier_porod:
+            D:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+            distribution:
+              single: {}
+            rg:
+              model_type: ridge_regressor
+              scores: {MAE: 0.7088343870300168, coef_of_determination: 0.2176340142386457}
+        pop1:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.23627703632081778, coef_of_determination: 0.7573905084770169}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: 0.47530291502720967, coef_of_determination: 0.054519787885087934}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: 0.22975609060128818, coef_of_determination: 0.8317767397195126}
+      diffuse__diffuse__disordered:
+        noise:
+          flat:
+            I0_fraction:
+              model_type: ridge_regressor
+              scores: {MAE: 0.42231253854931206, coef_of_determination: 0.6233181427566459}
+        pop0:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.49531237099772196, coef_of_determination: 0.4569111836566574}
+          guinier_porod:
+            D:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+            distribution:
+              single: {}
+            rg:
+              model_type: ridge_regressor
+              scores: {MAE: 0.5742769764929146, coef_of_determination: 0.3722077235418195}
+        pop1:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.5711323603505658, coef_of_determination: 0.5619853067037774}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: 0.66385380295591, coef_of_determination: 0.3655923821060839}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: 0.5731320610692102, coef_of_determination: 0.43026312437578784}
+        pop2:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: 0.5517257036672477, coef_of_determination: 0.5799656659535654}
+          interaction:
+            hard_spheres:
+              r_hard:
+                model_type: ridge_regressor
+                scores: {MAE: 0.6109742134453482, coef_of_determination: 0.46968038553096536}
+              v_fraction:
+                model_type: ridge_regressor
+                scores: {MAE: 0.5461722007408248, coef_of_determination: 0.11842205493495761}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: 0.5519433750306895, coef_of_determination: 0.42054482386194014}
+              single: {}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: 0.7188651829125934, coef_of_determination: 0.09122079278937578}
+      diffuse__disordered:
+        noise:
+          flat:
+            I0_fraction:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+        pop0:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: null, coef_of_determination: null}
+          guinier_porod:
+            D:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+            distribution:
+              single: {}
+            rg:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: null, coef_of_determination: null}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+        pop1:
+          I0_fraction:
+            model_type: ridge_regressor
+            scores: {MAE: null, coef_of_determination: null}
+          guinier_porod:
+            D:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+            distribution:
+              single: {}
+            rg:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
+          interaction:
+            hard_spheres:
+              r_hard:
+                model_type: ridge_regressor
+                scores: {MAE: null, coef_of_determination: null}
+              v_fraction:
+                model_type: ridge_regressor
+                scores: {MAE: null, coef_of_determination: null}
+          spherical:
+            distribution:
+              r_normal:
+                sigma:
+                  model_type: ridge_regressor
+                  scores: {MAE: null, coef_of_determination: null}
+            r:
+              model_type: ridge_regressor
+              scores: {MAE: null, coef_of_determination: null}
