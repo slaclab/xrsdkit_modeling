@@ -1,0 +1,35 @@
+ODE_extra_flowrate: 0.19073683456878684
+ODE_extra_fraction: 0.0019563344494035084
+ODE_extra_setpoint: 0.18545554943561274
+ODE_flowrate: 0.03206934450331115
+ODE_setpoint: 0.0
+Pd_TOP_flowrate: 87.20691480556417
+Pd_TOP_setpoint: 86.73573718449984
+TOP_flowrate: 0.7450565583873762
+TOP_fraction: 0.007749712220443069
+TOP_setpoint: 0.7345728553443176
+T_read_A: 243.6741
+T_set: 243.66843381139083
+experiment_id: RxnC_201903
+exposure_time: 10.0
+flowrate: 94.79156108218032
+flowreactor_design_categorical_constraints: {crystalline_flag: 0, dilute_sphere_flag: 1,
+  disordered_flag: 0}
+flowreactor_design_constraints: {r0_sphere: 22.65645611589154}
+flowreactor_design_domain:
+  ODE_extra_fraction: [0.0, 0.3]
+  TOP_fraction: [0.0, 0.3]
+  T_set: [220.0, 310.0]
+  flowrate: [20.0, 100.0]
+  oleylamine_fraction: [0.0, 0.3]
+flowreactor_design_mode: MPI_exploitation
+flowreactor_design_range_constraints:
+  I0_fraction_sphere: [0.9, 1.0]
+  I0_sphere: [10.0, 1000000.0]
+  sigma_sphere: [0.0, 0.1]
+oleylamine_flowrate: 7.251086540933467
+oleylamine_fraction: 0.07527842543183946
+oleylamine_setpoint: 7.135699601343524
+sample_id: RxnC_201903_1552304459
+source_wavelength: 0.799898
+time: 1552305377.670254

@@ -1,0 +1,10 @@
+date_time: '2018-07-21 07:52:39.567414-07:00'
+exposure_time: 20.0
+flow_reactor_header: {ODE2_flowrate: 0.1397467634055174, ODE2_setpoint: 0.0, ODE_flowrate: 0.0035689846290815615,
+  ODE_setpoint: 0.0, Pd_TOP_flowrate: 35.3793875283856, Pd_TOP_setpoint: 35.40551207083407,
+  TOP_flowrate: 0.011771691119187466, TOP_setpoint: 0.0, T_read_A: 248.9419, T_read_B: -8.233063,
+  T_set_A: 248.93618208103953, T_set_B: null, oleylamine_flowrate: 4.39532334694056,
+  oleylamine_setpoint: 4.379975559258731, t_utc: 1532184759.567365, time: '2018-07-21
+    07:52:39.567414-07:00'}
+source_wavelength: 0.799898
+time: 1532184759.567365
