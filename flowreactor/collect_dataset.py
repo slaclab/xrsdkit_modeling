@@ -75,5 +75,5 @@ for expt_dir in expt_dirs:
                     new_sample[propk] = xrsd_props[propk]
                 ds = ds.append(new_sample,ignore_index=True)
 
-ds.to_csv(dataset_file,index=False,sep=' ')
+ds.to_csv(dataset_file,index=False)
 
