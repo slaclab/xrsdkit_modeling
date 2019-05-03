@@ -1,5 +1,0 @@
-{ODE_flowrate: -23.096226453594607, ODE_setpoint: 0.0, Pd_TOP_flowrate: 200.10504514738682,
-  Pd_TOP_setpoint: 200.0000069367943, TOP_flowrate: 0.0, TOP_setpoint: 0.0, T_read_A: 249.9335,
-  T_read_B: 71.39774, T_set_A: 250.0, T_set_B: null, date_time: '2018-06-24 18:41:07.199507-07:00',
-  exposure_time: 10.0, oleylamine_flowrate: 0.0, oleylamine_setpoint: 0.0, source_wavelength: 0.799898,
-  t_utc: 1529890867.199332, time: 1529890867.199332}

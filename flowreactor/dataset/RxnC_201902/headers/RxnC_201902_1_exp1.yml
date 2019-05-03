@@ -1,7 +1,0 @@
-{ODE_extra_flowrate: 29.863479239165763, ODE_extra_fraction: 0.2820736767595434, ODE_extra_setpoint: 27.72699545797072,
-  ODE_flowrate: 10.909366990839196, ODE_setpoint: 0.0, Pd_TOP_flowrate: 62.80556083579303,
-  Pd_TOP_setpoint: 58.531919078814234, TOP_flowrate: 0.26661402307215737, TOP_fraction: 0.001913965808034057,
-  TOP_setpoint: 0.18812849819035848, T_read_A: 255.856, T_set: 255.8568481825145,
-  experiment_id: RxnC_201902, exposure_time: 10.0, flowrate: 98.29733963599696, oleylamine_flowrate: 12.677781231493931,
-  oleylamine_fraction: 0.12055395635008281, oleylamine_setpoint: 11.850108347616837,
-  source_wavelength: 0.799898, time: 1549596738.030878}
