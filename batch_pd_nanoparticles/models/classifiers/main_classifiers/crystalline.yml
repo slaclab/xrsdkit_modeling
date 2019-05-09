@@ -1,0 +1,11 @@
+cross_valid_results: {}
+default_val: crystalline
+features: []
+metric: accuracy
+model:
+  hyper_parameters: {}
+  trained_par: {}
+model_target: system_class
+model_type: logistic_regressor
+scaler: {}
+trained: false

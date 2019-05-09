@@ -1,0 +1,6 @@
+Cross validation results for pop0_v_fraction Regressor
+
+Mean absolute error: 0.39182768205693697
+
+Coefficient of determination (R^2): 0.6328357478921884
+

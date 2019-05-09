@@ -1,0 +1,15 @@
+Cross validation results for pop1_lattice Classifier
+
+Confusion matrix:
+[[32  2]  F_cubic
+ [ 0 18]]  hcp
+
+
+F1 score: 0.9585326953748007
+
+Precision: 0.95
+
+Recall: 0.9705882352941176
+
+Accuracy: 0.9615384615384616
+
