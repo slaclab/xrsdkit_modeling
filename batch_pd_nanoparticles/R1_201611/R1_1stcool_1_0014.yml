@@ -1,0 +1,48 @@
+features: {I_fluctuation: 0.02096707816776439, Ilowq_over_Imean: 8.923024540523743,
+  Imax_over_Imean: 13.831527863366176, Imax_sharpness: 1.0027721254121926, best_hump_qwidth: 0.0036868402950154177,
+  best_hump_qwidth_log: 0.03445582553590888, best_trough_qwidth: 0.04034187880999781,
+  best_trough_qwidth_log: 0.002475986219471775, logI_fluctuation: 3.5109944678712846,
+  logI_max_over_std: 2.9980939766153565, pearson_expq: -0.4984242202041011, pearson_invexpq: 0.5826515911724043,
+  pearson_q: -0.5402915299177499, pearson_q2: -0.39260734271329817, q_Icentroid: 0.05014457458385841,
+  q_best_hump: 0.01323783214384544, q_best_hump_log: 0.015394605501227676, q_best_trough: 0.13577174308915532,
+  q_best_trough_log: 0.13504093354259633, q_logIcentroid: -0.012848937756835191, r_fftIcentroid: 0.09986029961436393}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.00038923306648756264
+  fit_snr: 21.566161434413235
+  good_fit: 1
+  initial_objective: 0.010540708956299057
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.39727733404599097
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1773.1310139745697
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 33.41930342555566
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.05021994202107738
+  settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+sample_metadata: {data_file: R1_1stcool_1_0014_dz_bgsub.dat, experiment_id: R1_201611,
+  notes: '', sample_id: R1_201611_1479584039, source_wavelength: 0.799898, time: 1479584039.0}

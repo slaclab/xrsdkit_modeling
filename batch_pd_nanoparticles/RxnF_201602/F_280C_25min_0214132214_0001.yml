@@ -1,0 +1,59 @@
+condensed_particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1231.5765837702443
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 17.53690662742076
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 27.124614625195793
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.3508771929819391
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.16863226431089376
+  settings: {distribution: r_normal, interaction: hard_spheres, sampling_step: 0.05,
+    sampling_width: 3.5}
+  structure: disordered
+features: {I_fluctuation: 0.26307460821507545, Ilowq_over_Imean: 5.6943524096100075,
+  Imax_over_Imean: 8.458012730130308, Imax_sharpness: 1.0316335641299939, best_hump_qwidth: 0.13672645122552798,
+  best_hump_qwidth_log: 0.7989419424898289, best_trough_qwidth: 0.8155527309668921,
+  best_trough_qwidth_log: 0.003352529463892306, logI_fluctuation: 3.6377206923441507,
+  logI_max_over_std: 2.46890073191496, pearson_expq: -0.6646241078316757, pearson_invexpq: 0.7509318219959333,
+  pearson_q: -0.7086558957406784, pearson_q2: -0.5527690303444381, q_Icentroid: 0.07697843864239814,
+  q_best_hump: 0.1599038906851293, q_best_hump_log: 0.14348028357502893, q_best_trough: 0.5003811433759309,
+  q_best_trough_log: 0.4989309055308966, q_logIcentroid: 0.032601237558552223, r_fftIcentroid: 0.06620979169570058}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0012299250353631345
+  fit_snr: 2.320065924661252
+  good_fit: 1
+  initial_objective: 0.0026495443136076804
+  logI_weighted: 1
+  q_range: [0.05, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.14427323207261733
+sample_metadata: {data_file: F_280C_25min_0214132214_0001_dz_bgsub.dat, experiment_id: RxnF_201602,
+  notes: '', sample_id: RxnF_201602_1455484945, source_wavelength: 0.799898, time: 1455484945.0}

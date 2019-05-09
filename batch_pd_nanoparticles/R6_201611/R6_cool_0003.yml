@@ -1,0 +1,95 @@
+features: {I_fluctuation: 0.0983987968299607, Ilowq_over_Imean: 2.8072483928255973,
+  Imax_over_Imean: 64.57407731423284, Imax_sharpness: 2.635823534624521, best_hump_qwidth: 0.0002586009850343605,
+  best_hump_qwidth_log: 0.001100194201740084, best_trough_qwidth: 0.004090041895427821,
+  best_trough_qwidth_log: 0.004556665348807014, logI_fluctuation: 5.417322955523564,
+  logI_max_over_std: 3.5609534102473974, pearson_expq: -0.24628046349103425, pearson_invexpq: 0.27409179009396384,
+  pearson_q: -0.2607620662974567, pearson_q2: -0.20960335615382736, q_Icentroid: 0.08663672059659126,
+  q_best_hump: 0.080337157855948, q_best_hump_log: 0.08127034534238342, q_best_trough: 0.042734300800561065,
+  q_best_trough_log: 0.04627970271460674, q_logIcentroid: -1.4349913898893998, r_fftIcentroid: 0.08449606093885975}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.062293003049030446
+  fit_snr: 0.9748491143538347
+  good_fit: 0
+  initial_objective: 0.06383895911216718
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: low_q_scatter
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1123.5656745294189
+    I0_flat_fraction:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0002760606674396815
+    effective_D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 0
+      value: 3.999999999999999
+    effective_rg:
+      bounds: [1.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 138.23396045288774
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 3.1628706676144036
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 10.519558558053308
+  settings: {distribution: single}
+  structure: diffuse
+sample_metadata: {data_file: R6_cool_0003_dz_bgsub.dat, experiment_id: R6_201611,
+  notes: '', sample_id: R6_201611_1479768756, source_wavelength: 0.799898, time: 1479768756.0}
+superlattice:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1.967146949222176e-05
+    a:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 135.19778039405801
+    hwhm_g:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0029340586906342336
+    hwhm_l:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.000683954635372408
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 39.81717927687412
+  settings: {distribution: single, integration_mode: spherical, lattice: F_cubic,
+    profile: voigt, q_max: 0.3, q_min: 0.0, space_group: Fm-3m, structure_factor_mode: radial,
+    texture: random}
+  structure: crystalline

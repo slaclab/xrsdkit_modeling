@@ -1,0 +1,68 @@
+features: {I_fluctuation: 0.7539218965617144, Ilowq_over_Imean: 5.237025380727181,
+  Imax_over_Imean: 6.1068768511491625, Imax_sharpness: 1.014986678805336, best_hump_qwidth: 0.10072076074019314,
+  best_hump_qwidth_log: 8.097391172556497e-05, best_trough_qwidth: 0.10072076074019314,
+  best_trough_qwidth_log: 8.097391172556497e-05, logI_fluctuation: 0.9225655835887084,
+  logI_max_over_std: 1.946208469425536, pearson_expq: -0.6957689471492602, pearson_invexpq: 0.7791372254295699,
+  pearson_q: -0.7385442251145521, pearson_q2: -0.5864399958274639, q_Icentroid: 0.09612275616352256,
+  q_best_hump: 0.5952262686270504, q_best_hump_log: 0.5884970520099262, q_best_trough: 0.5952262686270504,
+  q_best_trough_log: 0.5884970520099262, q_logIcentroid: 0.0880129687375225, r_fftIcentroid: 0.04027417895167101}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0033031239783331877
+  fit_snr: 2.799882029970786
+  good_fit: 1
+  initial_objective: 0.6380511008629083
+  logI_weighted: 1
+  q_range: [0.03, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1.4158302308331372e-09
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 107.13373350658892
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 18.31366175164643
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 9.800339392240787e-07
+  settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.475615932692212
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 3.5693765058501277
+  settings: {distribution: single}
+  structure: diffuse
+sample_metadata: {data_file: G_240C_0214171713_0001_dz_bgsub.dat, experiment_id: RxnG_201602,
+  notes: '', sample_id: RxnG_201602_1455499044, source_wavelength: 0.799898, time: 1455499044.0}

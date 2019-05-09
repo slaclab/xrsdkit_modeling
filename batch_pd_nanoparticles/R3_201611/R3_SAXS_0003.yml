@@ -1,0 +1,58 @@
+condensed_precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 17.09885088317591
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 9.532042730618777
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 3.112268230259048
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.15246421679161512
+  settings: {distribution: single, interaction: hard_spheres}
+  structure: disordered
+features: {I_fluctuation: 3.1436860257143913, Ilowq_over_Imean: 0.5393371458013307,
+  Imax_over_Imean: 1.5730645606761817, Imax_sharpness: 1.0265303476318604, best_hump_qwidth: 0.02512829915953227,
+  best_hump_qwidth_log: 0.015830857057372826, best_trough_qwidth: 0.07046134910987409,
+  best_trough_qwidth_log: 0.058863473388603114, logI_fluctuation: 2.740500930418932,
+  logI_max_over_std: 7.244014154412233, pearson_expq: -0.05744291941214649, pearson_invexpq: -0.08153865877190837,
+  pearson_q: 0.01176000434813118, pearson_q2: -0.20765778791293682, q_Icentroid: 0.3106300721173132,
+  q_best_hump: 0.608535476094348, q_best_hump_log: 0.6099588952892907, q_best_trough: 0.6378614638890874,
+  q_best_trough_log: 0.6584053918677248, q_logIcentroid: 0.31172297692824547, r_fftIcentroid: 0.128646106803502}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0036933079518845606
+  fit_snr: 16.753855952617037
+  good_fit: 1
+  initial_objective: 0.0036933079518845606
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 5.808020731024044e-12
+sample_metadata: {data_file: R3_SAXS_0003_dz_bgsub.dat, experiment_id: R3_201611,
+  notes: '', sample_id: R3_201611_1479675520, source_wavelength: 0.799898, time: 1479675520.0}
