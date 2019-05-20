@@ -56,10 +56,10 @@
             distribution: {metric: accuracy, model_type: logistic_regressor}
       main_classifiers:
         crystalline_binary: {metric: precision, model_type: logistic_regressor}
-        diffuse: {metric: accuracy, model_type: logistic_regressor}
+        diffuse: {metric: accuracy, model_type: non_linear_svm}
         diffuse__disordered: {metric: accuracy, model_type: logistic_regressor}
-        diffuse_binary: {metric: precision, model_type: logistic_regressor}
-        disordered_binary: {metric: precision, model_type: logistic_regressor}
+        diffuse_binary: {metric: precision, model_type: knn}
+        disordered_binary: {metric: precision, model_type: random_forest}
   - - REGRESSORS
     - diffuse:
         noise:

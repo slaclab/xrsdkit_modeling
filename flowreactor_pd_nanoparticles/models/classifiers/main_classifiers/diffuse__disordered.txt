@@ -1,15 +1,15 @@
 Cross validation results for system_class Classifier
 
 Confusion matrix:
-[[22  1]  diffuse__diffuse__disordered
- [ 1  4]]  diffuse__disordered
+[[24  5]  diffuse__diffuse__disordered
+ [ 3  4]]  diffuse__disordered
 
 
-F1 score: 0.8782608695652174
+F1 score: 0.6785714285714286
 
-Precision: 0.8782608695652174
+Precision: 0.6666666666666666
 
-Recall: 0.8782608695652174
+Recall: 0.6995073891625616
 
-Accuracy: 0.9285714285714286
+Accuracy: 0.7777777777777778
 

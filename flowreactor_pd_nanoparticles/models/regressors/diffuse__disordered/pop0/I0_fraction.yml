@@ -1,5 +1,5 @@
 cross_valid_results: {}
-default_val: 0.16570521193073237
+default_val: 0.23077208982480235
 features: []
 metric: neg_mean_absolute_error
 model:
