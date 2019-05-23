@@ -9,10 +9,10 @@ features: {I_fluctuation: 0.02580539795071453, Ilowq_over_Imean: 8.8957015425746
 fit_report:
   converged: 1
   error_weighted: 1
-  final_objective: 0.0009823564213133045
-  fit_snr: 45.882210979537064
+  final_objective: 0.00020136757993190435
+  fit_snr: 57.70344523110924
   good_fit: 1
-  initial_objective: 0.0013988435340824713
+  initial_objective: 0.0013966935848961706
   logI_weighted: 1
   q_range: [0.0, .inf]
   source_wavelength: 0.799898
@@ -23,7 +23,7 @@ noise:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 9.459023906253124
+      value: 0.0026233456195243754
 particle:
   form: spherical
   parameters:
@@ -31,18 +31,38 @@ particle:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 28165.76601454428
+      value: 28020.29034695626
     r:
       bounds: [0.1, .inf]
       constraint_expr: null
       fixed: 0
-      value: 33.16731264967936
+      value: 33.4153234824144
     sigma:
       bounds: [0.0, 2.0]
       constraint_expr: null
       fixed: 0
-      value: 0.07479897925923362
+      value: 0.06234728708432946
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 32.10274476746206
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 4.756569509521911
+  settings: {distribution: single}
   structure: diffuse
 sample_metadata: {data_file: R1_2rdheat_0031_dz_bgsub.dat, experiment_id: R1_201611,
   notes: '', sample_id: R1_201611_1479592791, source_wavelength: 0.799898, time: 1479592791.0}
