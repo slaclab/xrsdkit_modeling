@@ -9,10 +9,10 @@ features: {I_fluctuation: 0.41852612067471556, Ilowq_over_Imean: 7.4071875225737
 fit_report:
   converged: 1
   error_weighted: 1
-  final_objective: 0.009814859076338561
-  fit_snr: 5.895778035834168
+  final_objective: 0.00981366732256948
+  fit_snr: 5.898209489982458
   good_fit: 1
-  initial_objective: 0.11332907465002731
+  initial_objective: 0.10109512824565706
   logI_weighted: 1
   q_range: [0.0, .inf]
   source_wavelength: 0.799898
@@ -23,7 +23,7 @@ noise:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 0.3121790003756364
+      value: 0.31557401888396663
 particle:
   form: spherical
   parameters:
@@ -31,17 +31,17 @@ particle:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 617.7383926763318
+      value: 617.6032365794756
     r:
       bounds: [0.1, .inf]
       constraint_expr: null
       fixed: 0
-      value: 32.89865243655138
+      value: 32.90136927210771
     sigma:
       bounds: [0.0, 2.0]
       constraint_expr: null
       fixed: 0
-      value: 0.06725244129258168
+      value: 0.06693183951587423
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
 sample_metadata: {data_file: R1_reac_0050_dz_bgsub.dat, experiment_id: R1_201611,
@@ -53,27 +53,27 @@ superlattice:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 8.676284975139836e-06
+      value: 5.179707633576065
     a:
       bounds: [0.1, .inf]
       constraint_expr: null
       fixed: 0
-      value: 119.68292888273247
+      value: 119.68413073506039
     hwhm_g:
       bounds: [1.0e-09, .inf]
       constraint_expr: null
       fixed: 0
-      value: 4.5206758972127226e-05
+      value: 1.3661686578680943e-06
     hwhm_l:
       bounds: [1.0e-09, .inf]
       constraint_expr: null
       fixed: 0
-      value: 0.002114811221027302
+      value: 0.00211525567014037
     r:
       bounds: [0.1, .inf]
       constraint_expr: particle__r
       fixed: 0
-      value: 32.89865243655138
+      value: 32.90136927210771
   settings: {distribution: single, integration_mode: spherical, lattice: F_cubic,
     profile: voigt, q_max: 0.6, q_min: 0.0, space_group: Fm-3m, structure_factor_mode: radial,
     texture: random}

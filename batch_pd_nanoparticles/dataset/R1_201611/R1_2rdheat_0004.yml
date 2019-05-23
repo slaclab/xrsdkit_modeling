@@ -9,10 +9,10 @@ features: {I_fluctuation: 0.07015902495476485, Ilowq_over_Imean: 8.7889748001026
 fit_report:
   converged: 1
   error_weighted: 1
-  final_objective: 0.0006879149604069103
-  fit_snr: 20.25786766297072
+  final_objective: 0.0006802912018266001
+  fit_snr: 20.552648706338
   good_fit: 1
-  initial_objective: 0.003675796885985504
+  initial_objective: 0.01740355077598475
   logI_weighted: 1
   q_range: [0.0, .inf]
   source_wavelength: 0.799898
@@ -23,7 +23,7 @@ noise:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 0.24136940221593384
+      value: 0.23978840346085084
 particle:
   form: spherical
   parameters:
@@ -31,17 +31,17 @@ particle:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 1352.771407186601
+      value: 1353.1104392532457
     r:
       bounds: [0.1, .inf]
       constraint_expr: null
       fixed: 0
-      value: 33.37502125362996
+      value: 33.339329445010364
     sigma:
       bounds: [0.0, 2.0]
       constraint_expr: null
       fixed: 0
-      value: 0.05294522147775771
+      value: 0.052687877260713334
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
 sample_metadata: {data_file: R1_2rdheat_0004_dz_bgsub.dat, experiment_id: R1_201611,
@@ -53,27 +53,27 @@ superlattice:
       bounds: [0.0, .inf]
       constraint_expr: null
       fixed: 0
-      value: 5.028366967696485e-06
+      value: 0.6833562644320719
     a:
       bounds: [0.1, .inf]
       constraint_expr: null
       fixed: 0
-      value: 88.3301931700109
+      value: 88.41839811539558
     hwhm_g:
       bounds: [1.0e-09, .inf]
       constraint_expr: null
       fixed: 0
-      value: 4.067533434704007e-05
+      value: 5.182528751557225e-05
     hwhm_l:
       bounds: [1.0e-09, .inf]
       constraint_expr: null
       fixed: 0
-      value: 0.002129103762081086
+      value: 0.001717550803689405
     r:
       bounds: [0.1, .inf]
       constraint_expr: particle__r
       fixed: 0
-      value: 33.37502125362996
+      value: 33.339329445010364
   settings: {distribution: single, integration_mode: spherical, lattice: hcp, profile: voigt,
     q_max: 0.6, q_min: 0.0, space_group: P6(3)/mmc, structure_factor_mode: radial,
     texture: random}
