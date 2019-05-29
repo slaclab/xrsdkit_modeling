@@ -1,15 +1,15 @@
 Cross validation results for diffuse_binary Classifier
 
 Confusion matrix:
-[[224  16]  True
- [  1  54]]  False
+[[248   8]  True
+ [  3  34]]  False
 
 
-F1 score: 0.9634408602150538
+F1 score: 0.9783037475345168
 
-Precision: 0.9955555555555555
+Precision: 0.9880478087649402
 
-Recall: 0.9333333333333333
+Recall: 0.96875
 
-Accuracy: 0.9423728813559322
+Accuracy: 0.962457337883959
 

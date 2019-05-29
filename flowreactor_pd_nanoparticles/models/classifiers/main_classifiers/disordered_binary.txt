@@ -1,15 +1,15 @@
 Cross validation results for disordered_binary Classifier
 
 Confusion matrix:
-[[ 27   3]  True
- [ 63 202]]  False
+[[236  21]  False
+ [ 14  22]]  True
 
 
-F1 score: 0.45000000000000007
+F1 score: 0.5569620253164557
 
-Precision: 0.3
+Precision: 0.5116279069767442
 
-Recall: 0.9
+Recall: 0.6111111111111112
 
-Accuracy: 0.7762711864406779
+Accuracy: 0.8805460750853242
 
