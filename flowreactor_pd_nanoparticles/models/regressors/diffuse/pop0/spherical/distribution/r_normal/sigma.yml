@@ -1,4 +1,4 @@
-cross_valid_results: {MAE: 0.5565605385463399, coef_of_determination: 0.41259653213534675,
+cross_valid_results: {MAE: 0.5565605385463397, coef_of_determination: 0.41259653213534675,
   group_average_MAE: 0.5565605385463398, groupsize_weighted_average_MAE: 0.5565605385463398,
   minimization_score: -0.41259653213534675}
 default_val: null
