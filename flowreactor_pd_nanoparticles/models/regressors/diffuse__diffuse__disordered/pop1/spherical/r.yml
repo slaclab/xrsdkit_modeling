@@ -1,6 +1,6 @@
-cross_valid_results: {MAE: 0.5775697628061531, coef_of_determination: 0.3583694692989049,
+cross_valid_results: {MAE: 0.5775697628061532, coef_of_determination: 0.358369469298905,
   group_average_MAE: 0.5804965222637872, groupsize_weighted_average_MAE: 0.5775697628061531,
-  minimization_score: -0.3583694692989049}
+  minimization_score: -0.358369469298905}
 default_val: null
 features: [Imax_sharpness, q_logIcentroid, pearson_invexpq]
 metric: neg_mean_absolute_error

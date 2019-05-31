@@ -3,18 +3,18 @@
       value of the metric, and the second value is the difference in the metric relative
       to a reference training summary, if provided']
   - - SYSTEM_CLASS
-    - accuracy: 0.6757679180887372
+    - accuracy: 0.590443686006826
       all_labels: [diffuse, diffuse__diffuse, diffuse__diffuse__disordered, unidentified,
         diffuse__disordered]
       confusion_matrix:
-      - ['diffuse                      ', '[[ 19  43   1   8   2]']
-      - ['diffuse__diffuse             ', ' [  2 127  18   0   0]']
-      - ['diffuse__diffuse__disordered ', ' [  0  12  14   0   3]']
-      - ['unidentified                 ', ' [  3   0   0  34   0]']
-      - ['diffuse__disordered          ', ' [  0   2   1   0   4]]']
-      f1: 0.5928656233286754
-      precision: 0.6295234035643242
-      recall: 0.6194651323742355
+      - ['diffuse                      ', '[[  8  54   0   8   3]']
+      - ['diffuse__diffuse             ', ' [  3 126   0   0  18]']
+      - ['diffuse__diffuse__disordered ', ' [  0  12   0   0  17]']
+      - ['unidentified                 ', ' [  0   3   0  34   0]']
+      - ['diffuse__disordered          ', ' [  0   2   0   0   5]]']
+      f1: 0.39675876473639204
+      precision: 0.4585339030386841
+      recall: 0.5199873062886762
   - - CLASSIFIERS
     - diffuse:
         noise_model:
@@ -144,7 +144,7 @@
         pop0:
           I0_fraction:
             model_type: ridge_regressor
-            scores: {MAE: 0.3724822052486388, coef_of_determination: -0.017475382965252306}
+            scores: {MAE: 0.3724822052486388, coef_of_determination: -0.01747538296525253}
           guinier_porod:
             D:
               model_type: ridge_regressor
@@ -153,13 +153,13 @@
               single: {}
             rg:
               model_type: ridge_regressor
-              scores: {MAE: 0.23136312687826813, coef_of_determination: 0.8994351586246239}
+              scores: {MAE: 0.23136312687826818, coef_of_determination: 0.8994351586246239}
           spherical:
             distribution:
               r_normal:
                 sigma:
                   model_type: ridge_regressor
-                  scores: {MAE: 0.5565605385463399, coef_of_determination: 0.41259653213534675}
+                  scores: {MAE: 0.5565605385463397, coef_of_determination: 0.41259653213534675}
             r:
               model_type: ridge_regressor
               scores: {MAE: 0.23975526014869186, coef_of_determination: 0.8827530504538623}
@@ -172,7 +172,7 @@
         pop0:
           I0_fraction:
             model_type: ridge_regressor
-            scores: {MAE: 0.17093468044442237, coef_of_determination: 0.825005679992765}
+            scores: {MAE: 0.17093468044442237, coef_of_determination: 0.8250056799927651}
           guinier_porod:
             D:
               model_type: ridge_regressor
@@ -181,20 +181,20 @@
               single: {}
             rg:
               model_type: ridge_regressor
-              scores: {MAE: 0.7426000591462236, coef_of_determination: 0.10467038394434303}
+              scores: {MAE: 0.7426000591462237, coef_of_determination: 0.10467038394434303}
         pop1:
           I0_fraction:
             model_type: ridge_regressor
-            scores: {MAE: 0.16634776183609404, coef_of_determination: 0.8623355070247728}
+            scores: {MAE: 0.16634776183609404, coef_of_determination: 0.8623355070247727}
           spherical:
             distribution:
               r_normal:
                 sigma:
                   model_type: ridge_regressor
-                  scores: {MAE: 0.40631403592241316, coef_of_determination: 0.5642350973283287}
+                  scores: {MAE: 0.4063140359224132, coef_of_determination: 0.5642350973283287}
             r:
               model_type: ridge_regressor
-              scores: {MAE: 0.2698842776525572, coef_of_determination: 0.8149142178393514}
+              scores: {MAE: 0.2698842776525571, coef_of_determination: 0.8149142178393514}
       diffuse__diffuse__disordered:
         noise:
           flat:
@@ -204,7 +204,7 @@
         pop0:
           I0_fraction:
             model_type: ridge_regressor
-            scores: {MAE: 0.39142600072181943, coef_of_determination: 0.6277278618924116}
+            scores: {MAE: 0.3914260007218194, coef_of_determination: 0.6277278618924117}
           guinier_porod:
             D:
               model_type: ridge_regressor
@@ -213,7 +213,7 @@
               single: {}
             rg:
               model_type: ridge_regressor
-              scores: {MAE: 0.640886167283464, coef_of_determination: 0.27597442546139483}
+              scores: {MAE: 0.640886167283464, coef_of_determination: 0.27597442546139506}
         pop1:
           I0_fraction:
             model_type: ridge_regressor
@@ -223,22 +223,22 @@
               r_normal:
                 sigma:
                   model_type: ridge_regressor
-                  scores: {MAE: 0.6820798600323722, coef_of_determination: 0.384924425065012}
+                  scores: {MAE: 0.6820798600323724, coef_of_determination: 0.3849244250650118}
             r:
               model_type: ridge_regressor
-              scores: {MAE: 0.5775697628061531, coef_of_determination: 0.3583694692989049}
+              scores: {MAE: 0.5775697628061532, coef_of_determination: 0.358369469298905}
         pop2:
           I0_fraction:
             model_type: ridge_regressor
-            scores: {MAE: 0.467366273726871, coef_of_determination: 0.6567518408722715}
+            scores: {MAE: 0.4673662737268711, coef_of_determination: 0.6567518408722715}
           interaction:
             hard_spheres:
               r_hard:
                 model_type: ridge_regressor
-                scores: {MAE: 0.6059149007004284, coef_of_determination: 0.38936441278516654}
+                scores: {MAE: 0.6059149007004282, coef_of_determination: 0.38936441278516654}
               v_fraction:
                 model_type: ridge_regressor
-                scores: {MAE: 0.6560108597513271, coef_of_determination: -0.10457738990601473}
+                scores: {MAE: 0.656010859751327, coef_of_determination: -0.10457738990601473}
           spherical:
             distribution:
               r_normal:
@@ -248,7 +248,7 @@
               single: {}
             r:
               model_type: ridge_regressor
-              scores: {MAE: 0.7668988775358384, coef_of_determination: 0.04229840353155101}
+              scores: {MAE: 0.7668988775358383, coef_of_determination: 0.04229840353155079}
       diffuse__disordered:
         noise:
           flat:

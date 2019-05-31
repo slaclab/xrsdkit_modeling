@@ -1,6 +1,6 @@
-cross_valid_results: {MAE: 0.17093468044442237, coef_of_determination: 0.825005679992765,
+cross_valid_results: {MAE: 0.17093468044442237, coef_of_determination: 0.8250056799927651,
   group_average_MAE: 0.17093468044442237, groupsize_weighted_average_MAE: 0.1709346804444224,
-  minimization_score: -0.825005679992765}
+  minimization_score: -0.8250056799927651}
 default_val: null
 features: [Ilowq_over_Imean, I_fluctuation, logI_fluctuation, q_Icentroid, pearson_q,
   pearson_q2, pearson_expq, pearson_invexpq]

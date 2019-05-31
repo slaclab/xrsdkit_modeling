@@ -1,6 +1,6 @@
-cross_valid_results: {MAE: 0.39142600072181943, coef_of_determination: 0.6277278618924116,
+cross_valid_results: {MAE: 0.3914260007218194, coef_of_determination: 0.6277278618924117,
   group_average_MAE: 0.38953451242137366, groupsize_weighted_average_MAE: 0.39142600072181943,
-  minimization_score: -0.6277278618924116}
+  minimization_score: -0.6277278618924117}
 default_val: null
 features: [Imax_sharpness, q_Icentroid, best_hump_qwidth, best_trough_qwidth, q_best_hump_log,
   q_best_trough_log]

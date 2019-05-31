@@ -1,6 +1,6 @@
-cross_valid_results: {MAE: 0.3724822052486388, coef_of_determination: -0.017475382965252306,
+cross_valid_results: {MAE: 0.3724822052486388, coef_of_determination: -0.01747538296525253,
   group_average_MAE: 0.36879487144569556, groupsize_weighted_average_MAE: 0.3724822052486388,
-  minimization_score: 0.017475382965252306}
+  minimization_score: 0.01747538296525253}
 default_val: null
 features: [q_logIcentroid]
 metric: neg_mean_absolute_error
