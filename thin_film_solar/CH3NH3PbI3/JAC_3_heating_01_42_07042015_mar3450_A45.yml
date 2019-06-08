@@ -1,0 +1,23 @@
+features: {I_fluctuation: 1.3613732517159103, Ilowq_over_Imean: 0.4133632928371288,
+  Imax_over_Imean: 8.691448165173146, Imax_sharpness: 5.987170327087531, best_hump_qwidth: 0.002699484701981311,
+  best_hump_qwidth_log: 0.00441901279470266, best_trough_qwidth: 0.005129285906648925,
+  best_trough_qwidth_log: 0.0033777508956547874, logI_fluctuation: 4.3728005708468185,
+  logI_max_over_std: 22.99050055516901, pearson_expq: -0.04953383426992547, pearson_invexpq: -0.3095933611421285,
+  pearson_q: 0.11821052355781017, pearson_q2: 0.031557508787812445, q_Icentroid: 2.928350301498041,
+  q_best_hump: 2.6740278767119054, q_best_hump_log: 2.6742960134574543, q_best_trough: 5.121024492586905,
+  q_best_trough_log: 5.118375309633681, q_logIcentroid: 2.8477570391467695, r_fftIcentroid: 0.04292255523876955}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: JAC_3_heating_01_42_07042015_mar3450_A45.dat, experiment_id: CH3NH3PbI3,
+  notes: '', sample_id: CH3NH3PbI3_18, source_wavelength: 0.9744, time: 0.0}
