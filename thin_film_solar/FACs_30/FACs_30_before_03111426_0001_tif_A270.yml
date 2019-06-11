@@ -1,0 +1,23 @@
+features: {I_fluctuation: 0.4863242329186493, Ilowq_over_Imean: 0.31086304127707404,
+  Imax_over_Imean: 2.894138947145707, Imax_sharpness: 1.7113462628899718, best_hump_qwidth: 0.049405192818071,
+  best_hump_qwidth_log: 0.011100462394855877, best_trough_qwidth: 0.04917660838860927,
+  best_trough_qwidth_log: 0.011088370923306785, logI_fluctuation: 0.4158663732301098,
+  logI_max_over_std: 13.647856881443614, pearson_expq: -0.010559937152945188, pearson_invexpq: -0.4928882927477369,
+  pearson_q: 0.18676493294664986, pearson_q2: 0.0874748998953839, q_Icentroid: 3.3680761520645874,
+  q_best_hump: 0.7250185123953727, q_best_hump_log: 0.7385936658350456, q_best_trough: 0.7246590241095152,
+  q_best_trough_log: 0.7384942439772519, q_logIcentroid: 3.3107901088743614, r_fftIcentroid: 0.07908754928623356}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: FACs_30_before_03111426_0001_tif_A270.dat, experiment_id: FACs_30,
+  notes: '', sample_id: FACs_30_15, source_wavelength: 0.9744, time: 0.0}
