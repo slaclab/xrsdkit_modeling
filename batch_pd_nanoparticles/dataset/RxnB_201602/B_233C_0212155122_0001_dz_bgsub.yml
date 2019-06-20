@@ -1,0 +1,68 @@
+features: {I_fluctuation: 0.45154360061160154, Ilowq_over_Imean: 6.197590704299404,
+  Imax_over_Imean: 7.339093976510006, Imax_sharpness: 1.0179610169709008, best_hump_qwidth: 0.015029049111997744,
+  best_hump_qwidth_log: 0.07581202795217079, best_trough_qwidth: 0.07107716775612616,
+  best_trough_qwidth_log: 0.00422873509538378, logI_fluctuation: 4.350616294493169,
+  logI_max_over_std: 2.703282590209184, pearson_expq: -0.6425489639242441, pearson_invexpq: 0.7285647480666471,
+  pearson_q: -0.6862795391585399, pearson_q2: -0.531488347249953, q_Icentroid: 0.07849558963139792,
+  q_best_hump: 0.024085504470896524, q_best_hump_log: 0.03080140313535301, q_best_trough: 0.20960331322727538,
+  q_best_trough_log: 0.20946615193346607, q_logIcentroid: 0.07866938889735742, r_fftIcentroid: 0.037406899823296355}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.005966757438653396
+  fit_snr: 2.000097890441216
+  good_fit: 1
+  initial_objective: 0.020591901465339048
+  logI_weighted: 1
+  q_range: [0.1, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 5.335708907094894e-05
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 284.17508219508653
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 21.135954006661468
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.049291437200761345
+  settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1.5079227300260811
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 3.06497995126907
+  settings: {}
+  structure: diffuse
+sample_metadata: {data_file: B_233C_0212155122_0001_dz_bgsub.dat, experiment_id: RxnB_201602,
+  notes: '', sample_id: RxnB_201602_1455321093, source_wavelength: 0.799898, time: 1455321093.0}

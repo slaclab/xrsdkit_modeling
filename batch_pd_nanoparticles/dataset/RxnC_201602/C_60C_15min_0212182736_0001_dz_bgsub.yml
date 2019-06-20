@@ -1,0 +1,48 @@
+features: {I_fluctuation: 1.6823032781008076, Ilowq_over_Imean: 2.804952909897941,
+  Imax_over_Imean: 6.739045528574603, Imax_sharpness: 1.0482482093809293, best_hump_qwidth: 0.0003014032219682717,
+  best_hump_qwidth_log: 0.0008615752622903619, best_trough_qwidth: 0.03842982397323131,
+  best_trough_qwidth_log: 0.03760241230478487, logI_fluctuation: 2.423437106208878,
+  logI_max_over_std: 7.50412400199144, pearson_expq: -0.6564232385863632, pearson_invexpq: 0.7053665526046663,
+  pearson_q: -0.6817582704298524, pearson_q2: -0.5856405721235687, q_Icentroid: 0.2072379410833142,
+  q_best_hump: 0.02634675816510651, q_best_hump_log: 0.026791977337158657, q_best_trough: 0.10299869608172607,
+  q_best_trough_log: 0.1032581516098666, q_logIcentroid: 0.27139729778871385, r_fftIcentroid: 0.09596636937181888}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0036256341522054973
+  fit_snr: 1.2119697332987471
+  good_fit: 1
+  initial_objective: 3.7872261776462564
+  logI_weighted: 1
+  q_range: [0.1, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.9990510026544177
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 17.872661662880265
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 4.57530803785163
+  settings: {}
+  structure: diffuse
+sample_metadata: {data_file: C_60C_15min_0212182736_0001_dz_bgsub.dat, experiment_id: RxnC_201602,
+  notes: '', sample_id: RxnC_201602_1455330483, source_wavelength: 0.799898, time: 1455330483.0}

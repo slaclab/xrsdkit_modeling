@@ -1,0 +1,57 @@
+condensed_precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 5.5124297731720695
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 8.749433577449832
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.5070400635898564
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.10722452695644272
+  settings: {interaction: hard_spheres}
+  structure: disordered
+features: {I_fluctuation: 4.050207607611862, Ilowq_over_Imean: 0.6460399257983659,
+  Imax_over_Imean: 1.4129773606242715, Imax_sharpness: 1.093758180456584, best_hump_qwidth: 0.10141533231106124,
+  best_hump_qwidth_log: 0.08244592366178419, best_trough_qwidth: 0.030012309820819358,
+  best_trough_qwidth_log: 0.023639016857509614, logI_fluctuation: 3.8242807055450125,
+  logI_max_over_std: 9.799954882510946, pearson_expq: 0.047403618888788815, pearson_invexpq: -0.18686251128996834,
+  pearson_q: 0.11740192179947727, pearson_q2: -0.10570467418980402, q_Icentroid: 0.3145931279794142,
+  q_best_hump: 0.638366874866146, q_best_hump_log: 0.6443439668278761, q_best_trough: 0.6058680674011471,
+  q_best_trough_log: 0.6072374306214134, q_logIcentroid: 0.3133785661228073, r_fftIcentroid: 0.153314541416647}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0028291310680690586
+  fit_snr: 18.3714316187663
+  good_fit: 1
+  initial_objective: 0.7122226384361523
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 5.845079975586032e-11
+sample_metadata: {data_file: R3_SAXS_0018_dz_bgsub.dat, experiment_id: R3_201611,
+  notes: '', sample_id: R3_201611_1479675689, source_wavelength: 0.799898, time: 1479675689.0}
