@@ -1,0 +1,27 @@
+features: {I_fluctuation: 8.3126762739894, Ilowq_over_Imean: 1.148148335029374, Imax_over_Imean: 6.372805579847826,
+  Imax_sharpness: 1.4040253261221967, best_hump_qwidth: 5.20795791209635e-05, best_hump_qwidth_log: 8.075718933422525e-05,
+  best_trough_qwidth: 0.004469921439416243, best_trough_qwidth_log: 0.002601356741677834,
+  logI_fluctuation: 15.57934787935922, logI_max_over_std: 4.850203893515375, pearson_expq: 0.10008296601498039,
+  pearson_invexpq: -0.09314671413714752, pearson_q: 0.0980467829049169, pearson_q2: 0.1061182468095461,
+  q_Icentroid: 0.31761682814613124, q_best_hump: 0.03135195855443351, q_best_hump_log: 0.030996524171736428,
+  q_best_trough: 0.05869300239888503, q_best_trough_log: 0.05851129340905953, q_logIcentroid: 0.2713683528913187,
+  r_fftIcentroid: 0.1840356142732898}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.11736052687212925
+  fit_snr: 2.81330386971166
+  good_fit: 1
+  initial_objective: 43.76799199226245
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.7401342936463302
+sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.0,
+  time: 0.0}

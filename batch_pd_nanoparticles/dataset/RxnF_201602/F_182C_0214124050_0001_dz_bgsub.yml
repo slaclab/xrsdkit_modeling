@@ -1,0 +1,80 @@
+condensed_particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 84.16088268540373
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 10.29159597713354
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 23.886983421291905
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.606060605444159
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.1794560686696614
+  settings: {distribution: r_normal, interaction: hard_spheres, sampling_step: 0.05,
+    sampling_width: 3.5}
+  structure: disordered
+features: {I_fluctuation: 0.3691215107034009, Ilowq_over_Imean: 4.603451145827117,
+  Imax_over_Imean: 9.322683902655202, Imax_sharpness: 1.0326791372062953, best_hump_qwidth: 0.00736639907983049,
+  best_hump_qwidth_log: 0.03643898130995638, best_trough_qwidth: 1.0575738422297318,
+  best_trough_qwidth_log: 0.014360242620712386, logI_fluctuation: 5.358641934845314,
+  logI_max_over_std: 2.399489454085549, pearson_expq: -0.709302438408849, pearson_invexpq: 0.7900073991553197,
+  pearson_q: -0.7509441845444814, pearson_q2: -0.6026936394400174, q_Icentroid: 0.09131591081689629,
+  q_best_hump: 0.0964246721760122, q_best_hump_log: 0.09700288779332072, q_best_trough: 0.48980472577326517,
+  q_best_trough_log: 0.48930256055832516, q_logIcentroid: -0.0005558726940885908,
+  r_fftIcentroid: 0.07857895685320439}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0019385460025027077
+  fit_snr: 1.2418574064271186
+  good_fit: 1
+  initial_objective: 0.017254001122221394
+  logI_weighted: 1
+  q_range: [0.05, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.18880221538550435
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.7781743687678704
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 1.002729226460501
+  settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+sample_metadata: {data_file: F_182C_0214124050_0001_dz_bgsub.dat, experiment_id: RxnF_201602,
+  notes: '', sample_id: RxnF_201602_1455482461, source_wavelength: 0.799898, time: 1455482461.0}

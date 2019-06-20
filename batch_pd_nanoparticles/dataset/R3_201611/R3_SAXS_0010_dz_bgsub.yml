@@ -1,0 +1,57 @@
+condensed_precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 4.86630190668134
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 9.447936615736896
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.9547154308108996
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.14334563228978145
+  settings: {interaction: hard_spheres}
+  structure: disordered
+features: {I_fluctuation: 2.958471903501151, Ilowq_over_Imean: 0.52989891755014, Imax_over_Imean: 1.5268268035690455,
+  Imax_sharpness: 1.0415231168059584, best_hump_qwidth: 0.0005206493269652381, best_hump_qwidth_log: 0.00016068921777890458,
+  best_trough_qwidth: 0.0010728106724550086, best_trough_qwidth_log: 0.0003232732163334462,
+  logI_fluctuation: 2.0134199350002886, logI_max_over_std: 7.144825945076708, pearson_expq: -0.02224958924463682,
+  pearson_invexpq: -0.1187530114577606, pearson_q: 0.04803125517649896, pearson_q2: -0.17556899644990284,
+  q_Icentroid: 0.312541535879199, q_best_hump: 0.030801714776749367, q_best_hump_log: 0.031326115764101936,
+  q_best_trough: 0.03296703278767238, q_best_trough_log: 0.03391631081393082, q_logIcentroid: 0.31309101176903265,
+  r_fftIcentroid: 0.1316431115003936}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.0037888922439068807
+  fit_snr: 16.36531617406992
+  good_fit: 1
+  initial_objective: 1.26497492225434
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.7770230559553966e-11
+sample_metadata: {data_file: R3_SAXS_0010_dz_bgsub.dat, experiment_id: R3_201611,
+  notes: '', sample_id: R3_201611_1479675599, source_wavelength: 0.799898, time: 1479675599.0}

@@ -1,0 +1,136 @@
+condensed_particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 17.9926553986793
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 22.79864756603255
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 36.72677693908424
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.27894695596902475
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.4056685686013906
+  settings: {distribution: r_normal, interaction: hard_spheres, sampling_step: 0.05,
+    sampling_width: 3.5}
+  structure: disordered
+condensed_precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.9720506720457864
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 7.560489609335427
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 7.335384463013957
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.35388591694621735
+  settings: {interaction: hard_spheres}
+  structure: disordered
+features: {I_fluctuation: 0.21108249574318783, Ilowq_over_Imean: 5.748388939357349,
+  Imax_over_Imean: 32.67959405280377, Imax_sharpness: 2.0720804792974747, best_hump_qwidth: 0.00034107130427193846,
+  best_hump_qwidth_log: 0.0018511290404439528, best_trough_qwidth: 0.00303465681183163,
+  best_trough_qwidth_log: 0.007371341485030168, logI_fluctuation: 1.80835867113262,
+  logI_max_over_std: 3.808903400664975, pearson_expq: -0.4124557496407841, pearson_invexpq: 0.46204397750947535,
+  pearson_q: -0.43801146811009856, pearson_q2: -0.3475844572964909, q_Icentroid: 0.0881143669710557,
+  q_best_hump: 0.07248823956545755, q_best_hump_log: 0.07448478418044932, q_best_trough: 0.04172031554792566,
+  q_best_trough_log: 0.04497075391565131, q_logIcentroid: 0.12023006587213071, r_fftIcentroid: 0.0766154822725851}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.014025945491591902
+  fit_snr: 2.7534897324191947
+  good_fit: 1
+  initial_objective: 0.06928101384457529
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: low_q_scatter
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 273.722092751757
+    I0_flat_fraction:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 0
+      value: 3.0636727734623115e-05
+    effective_D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 0
+      value: 1.8671093576704458
+    effective_rg:
+      bounds: [1.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 77.09712439148929
+sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 1.5406,
+  time: 0.0}
+superlattice:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 2.0819450130698525
+    a:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 153.87095710571947
+    hwhm_g:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0029902161171172503
+    hwhm_l:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.00027164085138842164
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 43.87336367041085
+  settings: {distribution: single, integration_mode: spherical, lattice: F_cubic,
+    lorentz_correction: 1, polarization_correction: 1, profile: voigt, q_max: 0.25,
+    q_min: 0.0, space_group: Fm-3m, structure_factor_mode: radial, texture: random,
+    use_symmetry: 1}
+  structure: crystalline

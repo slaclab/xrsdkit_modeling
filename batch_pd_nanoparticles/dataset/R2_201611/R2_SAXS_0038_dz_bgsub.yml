@@ -1,0 +1,68 @@
+features: {I_fluctuation: 2.4988735090811307, Ilowq_over_Imean: 2.6239935103725522,
+  Imax_over_Imean: 3.2703681072667603, Imax_sharpness: 1.043038497725996, best_hump_qwidth: 0.00601677407789571,
+  best_hump_qwidth_log: 0.010663795789833012, best_trough_qwidth: 0.11103146220314264,
+  best_trough_qwidth_log: 0.08381197613043126, logI_fluctuation: 4.360220728271438,
+  logI_max_over_std: 6.642897129370374, pearson_expq: -0.6713506134127463, pearson_invexpq: 0.7455061356959688,
+  pearson_q: -0.7094697194187378, pearson_q2: -0.5727917289927782, q_Icentroid: 0.23280454775644868,
+  q_best_hump: 0.03809663184025047, q_best_hump_log: 0.040082329253708915, q_best_trough: 0.22029512854318606,
+  q_best_trough_log: 0.22808397804938252, q_logIcentroid: 0.2740881694402265, r_fftIcentroid: 0.0722200020927245}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.00179261387961313
+  fit_snr: 3.0110184853355095
+  good_fit: 1
+  initial_objective: 0.01815372188976578
+  logI_weighted: 1
+  q_range: [0.05, .inf]
+  source_wavelength: 0.799898
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.013162958578694317
+particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 21.549968220551207
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 9.26467905195628
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.9090909296218012
+  settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
+  structure: diffuse
+precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 4.901244777952896
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 1.5713170703706414
+  settings: {}
+  structure: diffuse
+sample_metadata: {data_file: R2_SAXS_0038_dz_bgsub.dat, experiment_id: R2_201611,
+  notes: '', sample_id: R2_201611_1479603145, source_wavelength: 0.799898, time: 1479603145.0}

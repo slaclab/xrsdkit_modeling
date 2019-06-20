@@ -1,0 +1,75 @@
+features: {I_fluctuation: 0.17284054643657562, Ilowq_over_Imean: 1.4065452369710418,
+  Imax_over_Imean: 62.24050928054217, Imax_sharpness: 2.9242835388169444, best_hump_qwidth: 0.00027355649161429804,
+  best_hump_qwidth_log: 0.001466199771613405, best_trough_qwidth: 0.022550986200740194,
+  best_trough_qwidth_log: 0.014697096879281535, logI_fluctuation: 3.4261550222768875,
+  logI_max_over_std: 3.909078782669449, pearson_expq: -0.24263784886385856, pearson_invexpq: 0.2658934620444685,
+  pearson_q: -0.2550019436526735, pearson_q2: -0.21114506026408753, q_Icentroid: 0.09526025605292841,
+  q_best_hump: 0.09188308862423672, q_best_hump_log: 0.09448672227498947, q_best_trough: 0.03311054894571824,
+  q_best_trough_log: 0.03390822467881477, q_logIcentroid: 0.11068603372094821, r_fftIcentroid: 0.09339980212510188}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.05663934450094824
+  fit_snr: 1.5396693848477248
+  good_fit: 1
+  initial_objective: 0.057479185827926306
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: low_q_scatter
+  parameters:
+    I0:
+      bounds: [1.0e-12, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 177.44922973860932
+    I0_flat_fraction:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 0
+      value: 1.0456590043061986e-05
+    effective_D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 0
+      value: 1.887968404928994
+    effective_rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 31.942662175665973
+sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.799898,
+  time: 0.0}
+superlattice:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 39.135769699928794
+    a:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 119.07981801248998
+    hwhm_g:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0020659651057267636
+    hwhm_l:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0011451203031714874
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 33.55529209526054
+  settings: {distribution: single, integration_mode: spherical, lattice: F_cubic,
+    lorentz_correction: 1, polarization_correction: 1, profile: voigt, q_max: 0.35,
+    q_min: 0.0, space_group: Fm-3m, structure_factor_mode: radial, texture: random,
+    use_symmetry: 1}
+  structure: crystalline

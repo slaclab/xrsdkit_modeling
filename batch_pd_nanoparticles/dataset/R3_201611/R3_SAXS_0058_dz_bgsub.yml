@@ -1,0 +1,136 @@
+condensed_particle:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 39.68470712884436
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 13.770091074100273
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 42.477136536513406
+    sigma:
+      bounds: [0.0, 2.0]
+      constraint_expr: null
+      fixed: 0
+      value: 0.7407407407407733
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.4161602398841995
+  settings: {distribution: r_normal, interaction: hard_spheres, sampling_step: 0.05,
+    sampling_width: 3.5}
+  structure: disordered
+condensed_precursor:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.22312493863546656
+    r_hard:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 8.490477725332203
+    rg:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 3.714409424593003
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.2869576801387046
+  settings: {interaction: hard_spheres}
+  structure: disordered
+features: {I_fluctuation: 0.2995873225959492, Ilowq_over_Imean: 6.8378196134210745,
+  Imax_over_Imean: 31.09085534279946, Imax_sharpness: 1.9966552528603856, best_hump_qwidth: 0.00041560970860007515,
+  best_hump_qwidth_log: 0.0023414704119743804, best_trough_qwidth: 0.0015778002068333819,
+  best_trough_qwidth_log: 0.0043748904294910644, logI_fluctuation: 1.8669783748735236,
+  logI_max_over_std: 3.5962536840741266, pearson_expq: -0.41098598418762766, pearson_invexpq: 0.4637739000158945,
+  pearson_q: -0.4380224783110365, pearson_q2: -0.3425676622627667, q_Icentroid: 0.07789396815298026,
+  q_best_hump: 0.06710565160001225, q_best_hump_log: 0.06931084403588361, q_best_trough: 0.03706417148420382,
+  q_best_trough_log: 0.04014992631978853, q_logIcentroid: 0.10465794738814684, r_fftIcentroid: 0.07766396290862272}
+fit_report:
+  converged: 1
+  error_weighted: 1
+  final_objective: 0.012954139114395427
+  fit_snr: 2.9233759500127667
+  good_fit: 1
+  initial_objective: 0.11322881575506895
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: low_q_scatter
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 746.1163682137051
+    I0_flat_fraction:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 0
+      value: 1.0368219105494347e-06
+    effective_D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 0
+      value: 3.029681323112135
+    effective_rg:
+      bounds: [1.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 87.21260162491551
+sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 1.5406,
+  time: 0.0}
+superlattice:
+  form: spherical
+  parameters:
+    I0:
+      bounds: [0.0, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.8638865762726224
+    a:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 172.53613368378026
+    hwhm_g:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 0.0028391583332053605
+    hwhm_l:
+      bounds: [1.0e-09, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 6.827455175295594e-05
+    r:
+      bounds: [0.1, .inf]
+      constraint_expr: null
+      fixed: 0
+      value: 46.654106940036996
+  settings: {distribution: single, integration_mode: spherical, lattice: F_cubic,
+    lorentz_correction: 1, polarization_correction: 1, profile: voigt, q_max: 0.25,
+    q_min: 0.0, space_group: Fm-3m, structure_factor_mode: radial, texture: random,
+    use_symmetry: 1}
+  structure: crystalline
