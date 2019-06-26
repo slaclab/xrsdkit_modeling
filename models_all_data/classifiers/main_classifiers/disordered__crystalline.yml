@@ -1,0 +1,29 @@
+cross_valid_results:
+  accuracy: 1.0
+  all_labels: [disordered__disordered__crystalline, disordered__crystalline]
+  confusion_matrix: "[[10  0]\n [ 0  7]]"
+  f1: 1.0
+  minimization_score: -1.0
+  precision: 1.0
+  recall: 1.0
+default_val: null
+features: [r_fftIcentroid, q_Icentroid, q_logIcentroid, pearson_q, pearson_q2, pearson_expq,
+  pearson_invexpq, q_best_hump, q_best_trough, best_hump_qwidth, best_trough_qwidth,
+  q_best_hump_log, q_best_trough_log, best_hump_qwidth_log]
+metric: accuracy
+model:
+  hyper_parameters: {n_neighbors: 5, weights: uniform}
+  trained_par:
+    classes_: [disordered__crystalline, disordered__disordered__crystalline]
+model_target: system_class
+model_type: knn
+scaler:
+  mean_: [0.07109327640681354, 0.1279479763529475, 0.14726603921761247, -0.37552078493264224,
+    -0.30797633025968474, -0.35665758840365747, 0.39282549617085644, 0.19252716102088832,
+    0.16944070793081853, 0.30737162374176874, 0.19793138771668128, 0.19671234041103658,
+    0.1884108224276663, 0.0016684118064284879]
+  scale_: [0.005955728135407651, 0.05653745683058932, 0.06815179370587815, 0.06404248148265175,
+    0.03830514982561533, 0.05635819626526751, 0.07195364106260606, 0.20731961093455045,
+    0.20259441729775288, 0.7482220626438413, 0.4764404229299878, 0.21155703967366218,
+    0.24428220835394662, 0.0016310773228056705]
+trained: true

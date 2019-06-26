@@ -1,0 +1,6 @@
+Cross validation results for pop2_r_hard Regressor
+
+Mean absolute error: 0.27582054212125506
+
+Coefficient of determination (R^2): 0.8801054676172025
+

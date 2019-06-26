@@ -1,0 +1,24 @@
+cross_valid_results: {MAE: 0.371531930270798, coef_of_determination: 0.7328290291355041,
+  group_average_MAE: 0.37247084477397807, groupsize_weighted_average_MAE: 0.37153193027079795,
+  minimization_score: -0.7328290291355041}
+default_val: null
+features: [Imax_over_Imean, Ilowq_over_Imean, r_fftIcentroid, q_Icentroid, pearson_invexpq]
+metric: neg_mean_absolute_error
+model:
+  hyper_parameters: {alpha: 1.0}
+  trained_par:
+    coef_: [0.32851188922861807, -0.4413693574464282, -0.18121944633472242, -0.37534045915593733,
+      1.253308743918471]
+    intercept_: -0.05351957077868212
+    n_iter_: null
+model_target: noise_effective_D
+model_type: ridge_regressor
+scaler:
+  mean_: [65.22908326409463, 2.0280581960701753, 0.08971651741435803, 0.09314831614099958,
+    0.27398409294686493]
+  scale_: [6.849682637276554, 0.5587914551388459, 0.007621097378160536, 0.004581211249592822,
+    0.021972748382870094]
+scaler_y:
+  mean_: [2.1338351921293888]
+  scale_: [0.572302970592909]
+trained: true

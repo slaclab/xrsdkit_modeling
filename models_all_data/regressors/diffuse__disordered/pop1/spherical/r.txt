@@ -1,0 +1,6 @@
+Cross validation results for pop1_r Regressor
+
+Mean absolute error: 0.41856674699766777
+
+Coefficient of determination (R^2): 0.6815756110661029
+

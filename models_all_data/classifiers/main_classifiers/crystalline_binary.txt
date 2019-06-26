@@ -1,0 +1,15 @@
+Cross validation results for crystalline_binary Classifier
+
+Confusion matrix:
+[[223  31]  True
+ [  1 920]]  False
+
+
+F1 score: 0.9330543933054394
+
+Precision: 0.9955357142857143
+
+Recall: 0.8779527559055118
+
+Accuracy: 0.9727659574468085
+

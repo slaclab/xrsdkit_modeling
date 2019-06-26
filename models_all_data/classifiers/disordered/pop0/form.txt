@@ -1,0 +1,15 @@
+Cross validation results for pop0_form Classifier
+
+Confusion matrix:
+[[67  0]  guinier_porod
+ [ 0 14]]  spherical
+
+
+F1 score: 1.0
+
+Precision: 1.0
+
+Recall: 1.0
+
+Accuracy: 1.0
+

@@ -1,0 +1,27 @@
+cross_valid_results:
+  accuracy: 0.7545731707317073
+  all_labels: [diffuse, diffuse__diffuse]
+  confusion_matrix: "[[341  91]\n [ 70 154]]"
+  f1: 0.7328659195127565
+  minimization_score: -0.7545731707317073
+  precision: 0.7291275634341328
+  recall: 0.7384259259259259
+default_val: null
+features: [logI_fluctuation, logI_max_over_std, r_fftIcentroid, q_logIcentroid, q_best_trough,
+  best_hump_qwidth, best_trough_qwidth, q_best_hump_log, q_best_trough_log, best_hump_qwidth_log,
+  best_trough_qwidth_log]
+metric: accuracy
+model:
+  hyper_parameters: {n_neighbors: 5, weights: uniform}
+  trained_par:
+    classes_: [diffuse, diffuse__diffuse]
+model_target: system_class
+model_type: knn
+scaler:
+  mean_: [5.212000752687214, 5.091347790890751, 0.1009345861353189, 0.5927161959484956,
+    0.20521844328401984, 0.0646892337442979, 0.33835916884082773, 0.08746268120359046,
+    0.21346636807857253, 0.056356662886289106, 0.03261554419656054]
+  scale_: [2.9002578050746592, 4.017879694847151, 0.03031747931100207, 3.493272952120362,
+    0.5324516476497586, 0.6682639570082846, 2.189972058167811, 0.19696015858181085,
+    0.3237701460297969, 0.2587551767818725, 0.202420714924914]
+trained: true

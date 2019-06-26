@@ -1,0 +1,15 @@
+Cross validation results for system_class Classifier
+
+Confusion matrix:
+[[10  0]  disordered__disordered__crystalline
+ [ 0  7]]  disordered__crystalline
+
+
+F1 score: 1.0
+
+Precision: 1.0
+
+Recall: 1.0
+
+Accuracy: 1.0
+

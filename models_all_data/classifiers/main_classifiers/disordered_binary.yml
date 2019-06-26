@@ -1,0 +1,26 @@
+cross_valid_results:
+  accuracy: 0.8893617021276595
+  all_labels: [0, 1]
+  confusion_matrix: "[[926  34]\n [ 96 119]]"
+  f1: 0.6467391304347827
+  minimization_score: -0.7777777777777778
+  precision: 0.7777777777777778
+  recall: 0.5534883720930233
+default_val: null
+features: [Imax_over_Imean, Imax_sharpness, I_fluctuation, r_fftIcentroid, pearson_invexpq,
+  q_best_hump, best_hump_qwidth, q_best_hump_log, best_hump_qwidth_log]
+metric: precision
+model:
+  hyper_parameters: {n_neighbors: 7, weights: distance}
+  trained_par:
+    classes_: [false, true]
+model_target: disordered_binary
+model_type: knn
+scaler:
+  mean_: [14.564921062776287, 1.442860789759348, 2.9356050077336153, 0.10067182724908492,
+    0.5165952534140317, 0.09967613563531845, 0.084406036060049, 0.09705849134915662,
+    0.05222857822941789]
+  scale_: [19.589835559380752, 0.7522720332975493, 3.922917764533691, 0.030688571316657483,
+    0.28887024219267, 0.2273331093824006, 1.1016405217519567, 0.19336326187946187,
+    0.23779692470458286]
+trained: true

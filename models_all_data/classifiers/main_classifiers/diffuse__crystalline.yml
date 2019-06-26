@@ -1,0 +1,23 @@
+cross_valid_results:
+  accuracy: 0.968421052631579
+  all_labels: [diffuse__diffuse__crystalline, diffuse__crystalline]
+  confusion_matrix: "[[42  1]\n [ 2 50]]"
+  f1: 0.9681955138935388
+  minimization_score: -0.968421052631579
+  precision: 0.9674688057040999
+  recall: 0.9691413237924866
+default_val: null
+features: [r_fftIcentroid, q_logIcentroid, q_best_trough, q_best_trough_log, best_hump_qwidth_log]
+metric: accuracy
+model:
+  hyper_parameters: {n_neighbors: 3, weights: uniform}
+  trained_par:
+    classes_: [diffuse__crystalline, diffuse__diffuse__crystalline]
+model_target: system_class
+model_type: knn
+scaler:
+  mean_: [0.092045476805894, -0.05206500498448278, 0.13570727847065103, 0.13763925101694433,
+    0.07564468684093778]
+  scale_: [0.01492550569294138, 0.9505821981333867, 0.06208845871784556, 0.06276950185373278,
+    0.3237181803554271]
+trained: true

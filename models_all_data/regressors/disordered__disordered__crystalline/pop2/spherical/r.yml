@@ -1,0 +1,21 @@
+cross_valid_results: {MAE: 0.2989110684156044, coef_of_determination: 0.8209505352172266,
+  group_average_MAE: 0.29891106841560444, groupsize_weighted_average_MAE: 0.2989110684156044,
+  minimization_score: -0.8209505352172266}
+default_val: null
+features: [logI_max_over_std, q_best_hump, q_best_hump_log]
+metric: neg_mean_absolute_error
+model:
+  hyper_parameters: {alpha: 1.0}
+  trained_par:
+    coef_: [-0.6675442525248703, -0.2754434878466871, -0.27927122668305165]
+    intercept_: 0.03795506459067301
+    n_iter_: null
+model_target: pop2_r
+model_type: ridge_regressor
+scaler:
+  mean_: [3.7297670914039287, 0.168419594252178, 0.17323464452740117]
+  scale_: [0.1636162504088101, 0.19456652666211896, 0.19987092736663778]
+scaler_y:
+  mean_: [43.69495712824552]
+  scale_: [3.2396343980582305]
+trained: true

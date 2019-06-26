@@ -1,0 +1,6 @@
+Cross validation results for noise_effective_rg Regressor
+
+Mean absolute error: 0.4520948232310235
+
+Coefficient of determination (R^2): 0.11343394622542335
+

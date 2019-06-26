@@ -1,0 +1,11 @@
+cross_valid_results: {}
+default_val: flat
+features: []
+metric: accuracy
+model:
+  hyper_parameters: {}
+  trained_par: {}
+model_target: noise_model
+model_type: logistic_regressor
+scaler: {}
+trained: false

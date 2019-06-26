@@ -1,0 +1,21 @@
+cross_valid_results: {MAE: 0.6315700313117091, coef_of_determination: -0.1444678889625337,
+  group_average_MAE: 0.621103854997998, groupsize_weighted_average_MAE: 0.6315700313117089,
+  minimization_score: 0.1444678889625337}
+default_val: null
+features: [pearson_invexpq]
+metric: neg_mean_absolute_error
+model:
+  hyper_parameters: {alpha: 100.0}
+  trained_par:
+    coef_: [0.015328179236979147]
+    intercept_: -0.015492086379789997
+    n_iter_: null
+model_target: noise_I0_flat_fraction
+model_type: ridge_regressor
+scaler:
+  mean_: [0.44904638245823475]
+  scale_: [0.005395647336277184]
+scaler_y:
+  mean_: [2.8173124988218746e-05]
+  scale_: [5.292978968167327e-05]
+trained: true

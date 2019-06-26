@@ -1,0 +1,6 @@
+Cross validation results for noise_I0_fraction Regressor
+
+Mean absolute error: 0.45957034929413004
+
+Coefficient of determination (R^2): 0.699052548516888
+

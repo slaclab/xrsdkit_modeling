@@ -1,0 +1,29 @@
+cross_valid_results:
+  accuracy: 0.9907407407407407
+  all_labels: [guinier_porod, spherical]
+  confusion_matrix: "[[321   1]\n [  3 107]]"
+  f1: 0.9877297128411964
+  minimization_score: -0.9907407407407407
+  precision: 0.9907407407407407
+  recall: 0.9848108413325805
+default_val: null
+features: [Imax_over_Imean, Ilowq_over_Imean, q_Icentroid, pearson_q2, pearson_invexpq,
+  q_best_trough, q_best_hump_log, q_best_trough_log]
+metric: accuracy
+model:
+  hyper_parameters: {C: 1.3894954943731375}
+  trained_par:
+    classes_: [guinier_porod, spherical]
+    coef_:
+    - [-1.6622674699251616, 2.2061383239103427, -0.5424641342748273, 2.0530015565283213,
+      1.8836041490111446, -0.016094559801235645, 0.05297841196070481, -0.05228890035220801]
+    intercept_: [-0.5561763104303258]
+    n_iter_: 414
+model_target: pop0_form
+model_type: linear_svm_hinge
+scaler:
+  mean_: [4.562261724375056, 2.823657570199732, 0.22019860775225217, -0.5561114063518592,
+    0.6077786060913568, 0.1412967915701483, 0.11077046876779457, 0.16145663933256493]
+  scale_: [3.3306543256263352, 2.259767845221717, 0.08634979153143191, 0.18643495168236157,
+    0.2308572154777745, 0.6299974341316218, 0.21687034872837402, 0.3521031289376881]
+trained: true
