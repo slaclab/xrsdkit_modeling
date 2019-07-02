@@ -24,4 +24,4 @@ noise:
       fixed: 0
       value: 0.6597778129030716
 sample_metadata: {data_file: randomized_goalB5_dz_bgsub.dat, experiment_id: R2_201811,
-  notes: '', sample_id: R2_201811_1541558289, source_wavelength: 0.0, time: 1541558289.498955}
+  notes: '', sample_id: R2_201811_1541558289, source_wavelength: 0.8265617, time: 1541558289.498955}

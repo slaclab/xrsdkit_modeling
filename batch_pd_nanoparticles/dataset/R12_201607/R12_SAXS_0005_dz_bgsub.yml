@@ -23,5 +23,5 @@ noise:
       constraint_expr: null
       fixed: 0
       value: 1.2254768011030683
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.0,
-  time: 0.0}
+sample_metadata: {data_file: R12_SAXS_0005_dz_bgsub.dat, experiment_id: R12_201607,
+  notes: '', sample_id: R12_201607_1468031489, source_wavelength: 0.826562, time: 0.0}

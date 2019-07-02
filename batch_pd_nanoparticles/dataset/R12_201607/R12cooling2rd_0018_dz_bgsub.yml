@@ -43,8 +43,8 @@ particle:
       value: 0.18875691752237023
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 1.5406,
-  time: 0.0}
+sample_metadata: {data_file: R12cooling2rd_0018_dz_bgsub.dat, experiment_id: R12_201607,
+  notes: '', sample_id: R12_201607_1468036160, source_wavelength: 0.826562, time: 0.0}
 superlattice:
   form: spherical
   parameters:

@@ -74,4 +74,4 @@ precursor:
   settings: {}
   structure: diffuse
 sample_metadata: {data_file: randomized_goalB7_dz_bgsub.dat, experiment_id: R2_201811,
-  notes: '', sample_id: R2_201811_1541561694, source_wavelength: 0.0, time: 1541561694.099252}
+  notes: '', sample_id: R2_201811_1541561694, source_wavelength: 0.8265617, time: 1541561694.099252}

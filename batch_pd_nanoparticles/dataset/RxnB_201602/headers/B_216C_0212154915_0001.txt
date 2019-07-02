@@ -1,0 +1,11 @@
+# General info
+User: SSRL\b_tassone, time: Fri Feb 12 15:49:27 2016
+
+# Temperature
+216C
+
+# Counters
+sec=5, i0=874, i1=0, mon=0, bstop=0, Omron=19362, CH6=0, CH7=0, TEMP=216, CCD1=0
+
+# Motors
+samplex=0.072381, sampley=1.28423, samplez=-12, camzoom=-5.88235e-05, kap=0, phi=0.4, omg=-295.304, gonioz=130.089, gsvert=0, gshorz=0, empty3=10, empty4=0, dethorz=4.74981, detvert=111, detz=301.589, detpit=0, t3v=0.219375, b3v=0.480625, r3h=-0.024375, l3h=0.724375, stagey=2.177, stagex=2.95012, bshorz=30.6441, bsvert=70.9727, m0v1=2.05076, m0v2=6.14975, m0h1=-3.50508, m0h2=-6.79695, empty7=20.7235, monopit=22706, monorol=61522, crystal=7.32796, monvtra=-0.434081, monvgap=6.00096, monhtra=-1.10511, monhgap=15.9994, tablev1=17.4743, tablev2=31.042, plate_y=31.5, plate_z=0.932231, tableh1=-1.82835, tableh2=1.19953, plate_x=-8.999, plate_t=8, vort_y=0.2032, vort_x=0.937262, vort_z=-68.0245, fluo_z=456.632, m0bend=3.41356, m0vtran=4.1528, m0pitch=4.5697, m0horz=-5.0913, m0yaw=-3.7323, tablev=24.8749, tablep=8.4481, tableh=-0.88, tableya=2.8565, h0gap=4, h0tran=-0.914, v0gap=6, v0tran=1.069, h1gap=27.813, h1tran=8.8855, v1gap=12.652, v1tran=63.898, mono=15500.3, pico1=-16, pico2=75.11, pico3=-28.73, t0v=4.069, b0v=1.931, l0h=2.914, r0h=1.086, t1v=70.2239, b1v=-57.5721, l1h=5.02105, r1h=22.7917, h2gap=2, h2tran=1.6, v2gap=2, v2tran=7.863, h3gap=0.7, h3tran=-0.3745, v3gap=0.7, v3tran=-0.1305, t2v=8.863, b2v=-6.863, l2h=-0.6, r2h=2.6, saxschi=-3.45777e-07, saxsth=6.5625e-07, saxsy=0.75, spare4=0, saxshor=11.4985, saxsver=-4.75, saxphi=-3.70787e-06, table2h=1, table2v=-20.4181, m98=0, m99=0, tempset=20

@@ -64,4 +64,4 @@ pop1:
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
 sample_metadata: {data_file: randomized_goal26_dz_bgsub.dat, experiment_id: R1_201811,
-  notes: '', sample_id: R1_201811_1541507869, source_wavelength: 0.0, time: 1541507869.650543}
+  notes: '', sample_id: R1_201811_1541507869, source_wavelength: 0.8265617, time: 1541507869.650543}

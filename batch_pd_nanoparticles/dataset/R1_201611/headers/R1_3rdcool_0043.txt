@@ -1,0 +1,11 @@
+# General info
+User: SSRL\b_tassone, time: Sat Nov 19 14:12:34 2016
+
+# Temperature
+135.3C
+
+# Counters
+sec=5, i0=61449, i1=747059, mon=0, bstop=18330, Omron=2.2241e+06, CH6=0, CH7=0, TEMP=135.3, marccd=4.76968, ICRxT=1, OCRxT=1, ROI1=1, ROI2=1, ROI3=1, ROI4=1, ROI5=1, ROI6=1, ROI7=1, ROI8=1, ROI9=1, ROI10=1, RIO11=1, ROI12=1, ROI13=1, SWX=0, CCD1=0, CTEMP=0, Timer=0, pd1=-1, PRESS=0, lvdt11=0, lvdt12=0, lvdt21=0, lvdt22=0, lvdt31=0, lvdt32=0, lvdt41=0, lvdt42=0
+
+# Motors
+samplex=0, sampley=-3.52208, samplez=1.80208, camzoom=0, kap=0, phi=-198.875, omg=508.034, gonioz=-92.0051, gsvert=0, gshorz=0, empty3=0, empty4=0, dethorz=19.0069, detvert=-240.39, detz=2.93778, detpit=0, t3v=-2.4075, b3v=3.1075, r3h=1.88437, l3h=-1.38437, theta=0.071625, stagex=0.0806242, bshorz=0.171652, bsvert=-0.209361, m0v1=-1.65736, m0v2=2.09518, m0h1=0.285533, m0h2=0.149746, empty7=0, monopit=22786, monorol=61522, crystal=7.328, monvtra=0.000156764, monvgap=3.90155, monhtra=7.83822e-05, monhgap=9.49688, tablev1=-0.0439542, tablev2=-0.0439542, plate_y=0, plate_z=0, tableh1=0, tableh2=0, rail3_x=24.8514, rail3_y=-7.25679, rail2_y=0, rail2_x=0, vort_z=127.562, fluo_z=-59.5141, m0bend=1.07827, m0vtran=0.267, m0pitch=4.1834, m0horz=0.2201, m0yaw=-0.154, tablev=-0.044, tablep=0, tableh=0, tableya=0, h0gap=3.5, h0tran=-0.932, v0gap=3.5, v0tran=-4.716, h1gap=27.8, h1tran=0, v1gap=12.65, v1tran=0, mono=15500.2, pico1=393.99, pico2=65.09, pico3=-428.74, t0v=-2.966, b0v=6.466, l0h=2.682, r0h=0.818, t1v=6.325, b1v=6.325, l1h=13.9, r1h=13.9, h2gap=3.2, h2tran=-7.498, v2gap=2, v2tran=2.148, h3gap=0.5, h3tran=1.6345, v3gap=0.7, v3tran=-2.7575, t2v=3.148, b2v=-1.148, l2h=9.098, r2h=-5.898, saxschi=2.25477, saxsth=-0.0310547, saxsy=0, spare4=0, saxshor=-16.0841, oldver=-3.41964, saxphi=-128.169, table2h=0, table2v=0, saxsver=-1.58064, m99=0, cryocon=-1, mdrv=36, tempset=20
