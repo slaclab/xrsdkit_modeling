@@ -1,0 +1,61 @@
+R1_201611:
+Done
+
+R2_201611: 
+Many samples have a superlattice that is difficult to fit. 
+May have mixed disordered/crystalline character.
+Large lattice parameter leads to potential memory overflow.
+These samples should be left without the "good_fit" flag,
+until we find a good way to fit them.
+
+R3_201611:
+Some samples are not done. TODO: finish.
+
+R4_201611:
+Done
+
+R5_201611
+Done
+
+R6_201611
+Done
+There are some without the "good_fit" flag. TODO: re-inspect.
+
+R7_201611
+Some samples are not done.
+Suspiciously high count of samples without the "good_fit" flag. TODO: re-inspect.
+
+R12_201607
+Some samples are not done.
+Suspiciously high count of samples without the "good_fit" flag. TODO: re-inspect.
+
+R13_201607
+
+
+RxnA_201602
+Done
+
+RxnB_201602
+Done
+
+RxnC_201602
+Done
+
+RxnD_201602
+Done
+
+RxnE_201602
+Done
+
+RxnF_201602
+Done
+
+RxnG_201602
+Done
+
+RxnH_201602
+Done
+
+RxnK_201602
+Suspiciously high count of samples without the "good_fit" flag. TODO: re-inspect.
+
