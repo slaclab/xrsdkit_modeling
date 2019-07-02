@@ -85,4 +85,4 @@ pop2:
     sampling_width: 3.5}
   structure: disordered
 sample_metadata: {data_file: randomized_goalB17_dz_bgsub.dat, experiment_id: R2_201811,
-  notes: '', sample_id: R2_201811_1541578866, source_wavelength: 0.0, time: 1541578866.692261}
+  notes: '', sample_id: R2_201811_1541578866, source_wavelength: 0.8265617, time: 1541578866.692261}
