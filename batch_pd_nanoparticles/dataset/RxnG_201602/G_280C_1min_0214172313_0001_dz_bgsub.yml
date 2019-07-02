@@ -63,8 +63,8 @@ precursor:
       value: 4.071399284570471
   settings: {}
   structure: diffuse
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.799898,
-  time: 0.0}
+sample_metadata: {data_file: G_280C_1min_0214172313_0001_dz_bgsub.dat, experiment_id: RxnG_201602,
+  notes: '', sample_id: RxnG_201602_1455499404, source_wavelength: 0.799898, time: 0.0}
 superlattice:
   form: spherical
   parameters:

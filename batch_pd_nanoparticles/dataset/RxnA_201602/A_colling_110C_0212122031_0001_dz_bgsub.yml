@@ -38,8 +38,8 @@ noise:
       constraint_expr: null
       fixed: 0
       value: 31.34720396905758
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.799898,
-  time: 0.0}
+sample_metadata: {data_file: A_colling_110C_0212122031_0001_dz_bgsub.dat, experiment_id: RxnA_201602,
+  notes: '', sample_id: RxnA_201602_1455308448, source_wavelength: 0.799898, time: 0.0}
 superlattice:
   form: spherical
   parameters:

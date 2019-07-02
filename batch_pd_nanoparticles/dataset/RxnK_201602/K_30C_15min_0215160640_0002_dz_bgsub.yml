@@ -43,5 +43,5 @@ precursor:
       value: 4.863629414963631
   settings: {}
   structure: diffuse
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.0,
-  time: 0.0}
+sample_metadata: {data_file: K_30C_15min_0215160640_0002_dz_bgsub.dat, experiment_id: RxnK_201602,
+  notes: '', sample_id: RxnK_201602_1455581223, source_wavelength: 0.799898, time: 0.0}

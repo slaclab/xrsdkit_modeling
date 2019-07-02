@@ -43,5 +43,5 @@ particle:
       value: 0.015109201467035649
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.0,
-  time: 0.0}
+sample_metadata: {data_file: R12_SAXS_0027_dz_bgsub.dat, experiment_id: R12_201607,
+  notes: '', sample_id: R12_201607_1468031742, source_wavelength: 0.826562, time: 0.0}

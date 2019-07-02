@@ -43,5 +43,5 @@ particle:
       value: 0.1601719250090946
   settings: {distribution: r_normal, sampling_step: 0.05, sampling_width: 3.5}
   structure: diffuse
-sample_metadata: {data_file: '', experiment_id: '', notes: '', sample_id: '', source_wavelength: 0.0,
-  time: 0.0}
+sample_metadata: {data_file: K_260C_0215163406_0001_dz_bgsub.dat, experiment_id: RxnK_201602,
+  notes: '', sample_id: RxnK_201602_1455582858, source_wavelength: 0.799898, time: 0.0}
