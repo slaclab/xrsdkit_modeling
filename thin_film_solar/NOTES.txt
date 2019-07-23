@@ -1,0 +1,46 @@
+Should oxidation state be considered when choosing form factors?
+A: maybe, but probably not a big deal.
+
+CH3NH3PbI3
+----------
+- methylammonium lead iodide
+Au electrode - check
+Glassy phase - gold or sample? probably glass...
+FTO: F-doped tin oxide - Rutile tetragonal, no 136 P4(2)/mnm, a=4.73, c=3.18, 
+    Sn[(0,0,0),(.5,.5,.5)], 
+    O[(x,x,0),(1-x,1-x,0),(u,v,.5),(v,u,.5)] 
+    - what does the fluorine do?
+CH3NH3PbI3 - have Rietveld table
+    Seems that the given coords assume the application of symmetry ops
+    Low temp: add iodine at...
+    High temp: add iodine at all rotations of .5,0,0
+
+
+FACs 
+----
+- formamidinium cesium lead iodide
+CsPbI3 - Is this like ch3nh3pbi3 but with cs instead of methylammonium? 
+FACsPbI3 - role of FA? subtitutional or interstitial? similar to CsPbI3?
+PbI2 - ? -- possibly hexagonal with ABC layers, 
+    A=Pb (0,0,0), 
+    B=I (1/3,1/3,1/3)
+    C=I (2/3,2/3,2/3)
+    -- should be P-3m1
+Substrate? Identity of glassy phase?
+
+
+CZTS 
+----
+- Copper Zinc Tin Selenide, CuZnSnSe4
+Mo substrate - check
+No glassy phase?
+CZTS - I-4
+    Cu[(0,0,0),(.25,.5,0)]
+    Zn[(.25,0,.5),(.75,.5,0)]
+    Sn[(0,.5,.5),(.5,0,0)]
+    Se[(.125,.25,.25),(.125,.75,.75),(.375,.75,.25),(.375,.25,.75)] 
+        and all the same with x+.5
+ZnSe - zinc blende, check
+    -- SI of laura's paper
+    -- Cu and Zn substitute
+

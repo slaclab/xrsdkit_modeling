@@ -1,0 +1,23 @@
+features: {I_fluctuation: 0.756810382088147, Ilowq_over_Imean: 0.33167447557931484,
+  Imax_over_Imean: 3.9928899154286706, Imax_sharpness: 2.4611566240181735, best_hump_qwidth: 0.11832779819631063,
+  best_hump_qwidth_log: 0.027192288744685277, best_trough_qwidth: 0.7752210453804312,
+  best_trough_qwidth_log: 0.20523925008874222, logI_fluctuation: 0.5797673251371025,
+  logI_max_over_std: 13.896233467978073, pearson_expq: -0.02746596421016498, pearson_invexpq: -0.44214711514716054,
+  pearson_q: 0.15094915905911538, pearson_q2: 0.05925591186186831, q_Icentroid: 3.3551704442319896,
+  q_best_hump: 0.5520478345263626, q_best_hump_log: 0.5030880237611379, q_best_trough: 0.1652998255799525,
+  q_best_trough_log: 1.5346333569413022, q_logIcentroid: 3.311035797837164, r_fftIcentroid: 0.0863580038426294}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: FACs_30_cooling_03111545_0003_tif_A270.dat, experiment_id: FACs_30,
+  notes: '', sample_id: FACs_30_30, source_wavelength: 0.9744, time: 0.0}

@@ -1,0 +1,23 @@
+features: {I_fluctuation: 0.46571034157025354, Ilowq_over_Imean: 0.314264556877112,
+  Imax_over_Imean: 2.945751618858417, Imax_sharpness: 1.7382063852751268, best_hump_qwidth: 0.04484658484221429,
+  best_hump_qwidth_log: 0.010310780893226946, best_trough_qwidth: 0.04484658484221429,
+  best_trough_qwidth_log: 0.010310780893226946, logI_fluctuation: 0.464058053419037,
+  logI_max_over_std: 13.780580970303713, pearson_expq: -0.014737883744032136, pearson_invexpq: -0.4865580960368903,
+  pearson_q: 0.18052617880643126, pearson_q2: 0.08181340531693253, q_Icentroid: 3.364577307561552,
+  q_best_hump: 0.7202095675356683, q_best_hump_log: 0.7336517369573641, q_best_trough: 0.7202095675356683,
+  q_best_trough_log: 0.7336517369573641, q_logIcentroid: 3.3098539819048867, r_fftIcentroid: 0.07988236069044144}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: FACs30_2deg_heat_0022_tif_A270.dat, experiment_id: FACs_30,
+  notes: '', sample_id: FACs_30_107, source_wavelength: 0.9744, time: 0.0}

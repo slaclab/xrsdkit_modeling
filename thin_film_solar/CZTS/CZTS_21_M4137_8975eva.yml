@@ -1,0 +1,23 @@
+features: {I_fluctuation: 2.4835796577437415, Ilowq_over_Imean: 0.2599869165533016,
+  Imax_over_Imean: 356.5047603704509, Imax_sharpness: 107.04291364556806, best_hump_qwidth: 0.006149402523275849,
+  best_hump_qwidth_log: 0.00530060155034217, best_trough_qwidth: 0.00630096229249072,
+  best_trough_qwidth_log: 0.005772852571743884, logI_fluctuation: 340.33619008763264,
+  logI_max_over_std: 11.765752144504505, pearson_expq: -0.023537562792803085, pearson_invexpq: -0.0012161777272044903,
+  pearson_q: -0.019798903430743125, pearson_q2: -0.024273057270284466, q_Icentroid: 3.0644863086155723,
+  q_best_hump: 1.9166069234597423, q_best_hump_log: 1.9252585363615793, q_best_trough: 1.9110233490392448,
+  q_best_trough_log: 1.9235831941935304, q_logIcentroid: 3.3237441854137466, r_fftIcentroid: 0.0340432261180428}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: CZTS_21_M4137_8975eva.dat, experiment_id: CZTS, notes: '',
+  sample_id: CZTS_4, source_wavelength: 1.381, time: 0.0}

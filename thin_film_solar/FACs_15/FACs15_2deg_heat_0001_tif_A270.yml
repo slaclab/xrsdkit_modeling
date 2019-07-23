@@ -1,0 +1,146 @@
+PbI2:
+  form: polyatomic
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 1.0
+    a:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 3.6
+    c:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 7.4
+    hwhm_g:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    hwhm_l:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    occupancy_0:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    occupancy_1:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    occupancy_2:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    u_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    u_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+    u_2:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.2
+    v_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    v_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+    v_2:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.2
+    w_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    w_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+    w_2:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.2
+  settings: {integration_mode: spherical, lattice: hexagonal, lorentz_correction: 1,
+    n_atoms: 3, polarization_correction: 1, profile: voigt, q_max: 6.0, q_min: 0.0,
+    space_group: '', structure_factor_mode: local, symbol_0: Pb, symbol_1: I, symbol_2: I,
+    texture: random, use_symmetry: 1}
+  structure: crystalline
+features: {I_fluctuation: 0.23885217968640943, Ilowq_over_Imean: 0.37074327314722144,
+  Imax_over_Imean: 5.706786895467927, Imax_sharpness: 8.20814549079711, best_hump_qwidth: 0.400610733645916,
+  best_hump_qwidth_log: 0.22647567476970146, best_trough_qwidth: 0.30827756350347235,
+  best_trough_qwidth_log: 0.16564439793953062, logI_fluctuation: 0.2528988618705511,
+  logI_max_over_std: 14.330708135821425, pearson_expq: -0.01900508853976626, pearson_invexpq: -0.3925493457149365,
+  pearson_q: 0.1398609236325151, pearson_q2: 0.05934598558674776, q_Icentroid: 3.35216980601641,
+  q_best_hump: 0.4144836351086112, q_best_hump_log: -0.3806877773688715, q_best_trough: 0.46766022017205655,
+  q_best_trough_log: -0.10165924479820188, q_logIcentroid: 3.3122080988733393, r_fftIcentroid: 0.10156683772982883}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+glassyphase:
+  form: guinier_porod
+  parameters:
+    D:
+      bounds: [0.0, 4.0]
+      constraint_expr: null
+      fixed: 1
+      value: 4.0
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 40.0
+    r_hard:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 1.8
+    rg:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.2
+    v_fraction:
+      bounds: [0.01, 0.7405]
+      constraint_expr: null
+      fixed: 0
+      value: 0.36
+  settings: {interaction: hard_spheres}
+  structure: disordered
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: FACs15_2deg_heat_0001_tif_A270.dat, experiment_id: FACs_15,
+  notes: '', sample_id: FACs_15_59, source_wavelength: 0.9744, time: 0.0}

@@ -1,0 +1,171 @@
+CZTS:
+  form: polyatomic
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.1
+    a:
+      bounds: [5.0, 6.5]
+      constraint_expr: null
+      fixed: 0
+      value: 5.7
+    c:
+      bounds: [10.5, 12.0]
+      constraint_expr: null
+      fixed: 0
+      value: 11.35
+    hwhm_g:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    hwhm_l:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    occupancy_0:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    u_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    v_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    w_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+  settings: {integration_mode: spherical, lattice: I_tetragonal, lorentz_correction: 1,
+    n_atoms: 1, polarization_correction: 1, profile: voigt, q_max: 6.0, q_min: 0.0,
+    space_group: I4, structure_factor_mode: local, symbol_0: Cu, texture: random,
+    use_symmetry: 1}
+  structure: crystalline
+ZnSe:
+  form: polyatomic
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.1
+    a:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 5.68
+    hwhm_g:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    hwhm_l:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.003
+    occupancy_0:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    occupancy_1:
+      bounds: [0.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 1.0
+    u_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    u_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+    v_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    v_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+    w_0:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.0
+    w_1:
+      bounds: [-1.0, 1.0]
+      constraint_expr: null
+      fixed: 1
+      value: 0.1
+  settings: {integration_mode: spherical, lattice: F_cubic, lorentz_correction: 1,
+    n_atoms: 2, polarization_correction: 1, profile: voigt, q_max: 6.0, q_min: 0.0,
+    space_group: F4-3m, structure_factor_mode: local, symbol_0: H, symbol_1: H, texture: random,
+    use_symmetry: 1}
+  structure: crystalline
+features: {I_fluctuation: 3.630803594054358, Ilowq_over_Imean: 0.20988080024838324,
+  Imax_over_Imean: 285.732586447541, Imax_sharpness: 101.41206763663904, best_hump_qwidth: 0.007977786321995918,
+  best_hump_qwidth_log: 0.006659040869975282, best_trough_qwidth: 0.008139019125969366,
+  best_trough_qwidth_log: 0.00704876094019886, logI_fluctuation: 353.0541590612019,
+  logI_max_over_std: 13.899620943682102, pearson_expq: -0.043341219270076045, pearson_invexpq: -0.0034838375029458486,
+  pearson_q: -0.033726866606563315, pearson_q2: -0.041570377818970605, q_Icentroid: 3.258772152185047,
+  q_best_hump: 1.915018021094884, q_best_hump_log: 1.9225414486375583, q_best_trough: 1.9090803546577426,
+  q_best_trough_log: 1.9190541529761573, q_logIcentroid: 3.607625921890891, r_fftIcentroid: 0.04326970942251236}
+fit_report:
+  error_weighted: 1
+  good_fit: 0
+  logI_weighted: 1
+  q_range: [0.0, .inf]
+noise:
+  model: flat
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.001
+sample_metadata: {data_file: CZTS_21_M4137_12000a.dat, experiment_id: CZTS, notes: '',
+  sample_id: CZTS_3, source_wavelength: 1.033, time: 0.0}
+substrate:
+  form: atomic
+  parameters:
+    I0:
+      bounds: [0.0, null]
+      constraint_expr: null
+      fixed: 0
+      value: 1.0
+    a:
+      bounds: [0.1, null]
+      constraint_expr: null
+      fixed: 0
+      value: 3.15
+    hwhm_g:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.01
+    hwhm_l:
+      bounds: [1.0e-09, null]
+      constraint_expr: null
+      fixed: 0
+      value: 0.01
+  settings: {integration_mode: spherical, lattice: I_cubic, lorentz_correction: 1,
+    polarization_correction: 1, profile: voigt, q_max: 6.0, q_min: 0.0, space_group: Im-3m,
+    structure_factor_mode: local, symbol: Mo, texture: random, use_symmetry: 1}
+  structure: crystalline
