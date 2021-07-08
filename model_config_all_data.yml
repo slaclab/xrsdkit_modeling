@@ -1,0 +1,462 @@
+!!python/object/apply:collections.OrderedDict
+- - - DESCRIPTION
+    - Model options for classifiers: [logistic_regressor, sgd_classifier, non_linear_svm,
+        linear_svm, linear_svm_hinge, random_forest, d_tree, knn]
+      Model options for regressors: [ridge_regressor, elastic_net, sgd_regressor]
+      Training metric options for classifiers: [f1, accuracy, precision, recall]
+      Training metric options for regressors: [MAE, coef_of_determination]
+  - - CLASSIFIERS
+    - crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: linear_svm_hinge}
+          guinier_porod: {}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__diffuse:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+        pop1:
+          form: {metric: accuracy, model_type: d_tree}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__diffuse__crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop2:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__diffuse__disordered:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop2:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__disordered:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      diffuse__disordered__crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop2:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      disordered:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      disordered__crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      disordered__disordered:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      disordered__disordered__crystalline:
+        noise_model: {metric: accuracy, model_type: logistic_regressor}
+        pop0:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          guinier_porod: {}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+        pop1:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          interaction: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+        pop2:
+          form: {metric: accuracy, model_type: logistic_regressor}
+          lattice: {metric: accuracy, model_type: logistic_regressor}
+          spherical:
+            distribution: {metric: accuracy, model_type: logistic_regressor}
+      main_classifiers:
+        crystalline: {metric: accuracy, model_type: knn}
+        crystalline_binary: {metric: precision, model_type: knn}
+        diffuse: {metric: accuracy, model_type: knn}
+        diffuse__crystalline: {metric: accuracy, model_type: knn}
+        diffuse__disordered: {metric: accuracy, model_type: knn}
+        diffuse__disordered__crystalline: {metric: accuracy, model_type: knn}
+        diffuse_binary: {metric: precision, model_type: knn}
+        disordered: {metric: accuracy, model_type: knn}
+        disordered__crystalline: {metric: accuracy, model_type: knn}
+        disordered_binary: {metric: precision, model_type: knn}
+  - - REGRESSORS
+    - crystalline:
+        noise:
+          low_q_scatter:
+            I0_flat_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__crystalline:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          low_q_scatter:
+            I0_flat_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            hcp:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__diffuse:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__diffuse__crystalline:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop2:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__diffuse__disordered:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop2:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__disordered:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      diffuse__disordered__crystalline:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          low_q_scatter:
+            I0_flat_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop2:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      disordered:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      disordered__crystalline:
+        noise:
+          low_q_scatter:
+            I0_flat_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      disordered__disordered:
+        noise:
+          flat:
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+      disordered__disordered__crystalline:
+        noise:
+          low_q_scatter:
+            I0_flat_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            effective_rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop0:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          guinier_porod:
+            D: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            rg: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop1:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          interaction:
+            hard_spheres:
+              r_hard: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+              v_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              r_normal:
+                sigma: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+        pop2:
+          I0_fraction: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          lattice:
+            F_cubic:
+              a: {metric: neg_mean_absolute_error, model_type: ridge_regressor}
+          spherical:
+            distribution:
+              single: {}
+            r: {metric: neg_mean_absolute_error, model_type: ridge_regressor}

@@ -1,0 +1,21 @@
+cross_valid_results: {MAE: 0.4917053922491734, coef_of_determination: 0.2933052905125916,
+  group_average_MAE: 0.5093175273633151, groupsize_weighted_average_MAE: 0.49170539224917353,
+  minimization_score: -0.2933052905125916}
+default_val: null
+features: [best_hump_qwidth]
+metric: neg_mean_absolute_error
+model:
+  hyper_parameters: {alpha: 10.0}
+  trained_par:
+    coef_: [-0.5206020541311258]
+    intercept_: -0.06604356626119015
+    n_iter_: null
+model_target: noise_effective_D
+model_type: ridge_regressor
+scaler:
+  mean_: [0.00042725975244208535]
+  scale_: [2.8491615088275915e-05]
+scaler_y:
+  mean_: [3.952885369558691]
+  scale_: [0.1082289040639268]
+trained: true

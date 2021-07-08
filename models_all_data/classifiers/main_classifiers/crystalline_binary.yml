@@ -1,0 +1,24 @@
+cross_valid_results:
+  accuracy: 0.9727659574468085
+  all_labels: [1, 0]
+  confusion_matrix: "[[223  31]\n [  1 920]]"
+  f1: 0.9330543933054394
+  minimization_score: -0.9955357142857143
+  precision: 0.9955357142857143
+  recall: 0.8779527559055118
+default_val: null
+features: [Imax_over_Imean, Imax_sharpness, I_fluctuation, logI_fluctuation, pearson_q,
+  pearson_invexpq]
+metric: precision
+model:
+  hyper_parameters: {n_neighbors: 3, weights: uniform}
+  trained_par:
+    classes_: [false, true]
+model_target: crystalline_binary
+model_type: knn
+scaler:
+  mean_: [14.564921062776287, 1.442860789759348, 2.9356050077336153, 5.207601086375815,
+    -0.5002588904534281, 0.5165952534140317]
+  scale_: [19.589835559380752, 0.7522720332975493, 3.922917764533691, 3.043257674368487,
+    0.27146702002445766, 0.28887024219267]
+trained: true

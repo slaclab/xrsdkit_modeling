@@ -1,0 +1,24 @@
+cross_valid_results:
+  accuracy: 0.8365957446808511
+  all_labels: [0, 1]
+  confusion_matrix: "[[245  64]\n [128 738]]"
+  f1: 0.8848920863309353
+  minimization_score: -0.9201995012468828
+  precision: 0.9201995012468828
+  recall: 0.8521939953810623
+default_val: null
+features: [I_fluctuation, logI_fluctuation, r_fftIcentroid, pearson_q, pearson_expq,
+  pearson_invexpq, best_trough_qwidth, q_best_hump_log]
+metric: precision
+model:
+  hyper_parameters: {n_neighbors: 7, weights: distance}
+  trained_par:
+    classes_: [false, true]
+model_target: diffuse_binary
+model_type: knn
+scaler:
+  mean_: [2.9356050077336153, 5.207601086375815, 0.10067182724908492, -0.5002588904534281,
+    -0.48236223716469584, 0.5165952534140317, 0.27223588784464325, 0.09705849134915662]
+  scale_: [3.922917764533691, 3.043257674368487, 0.030688571316657483, 0.27146702002445766,
+    0.2550926560137849, 0.28887024219267, 1.7284341115537585, 0.19336326187946187]
+trained: true
